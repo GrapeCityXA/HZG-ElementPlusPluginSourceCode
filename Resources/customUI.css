@@ -1,0 +1,350 @@
+﻿.el-input__inner, .el-textarea__inner {
+    background-color: transparent;
+}
+/* -------------------------Input Start-------------------------*/
+.el-input-custom > div,
+.el-input-custom .el-input,
+.el-input-custom .el-input__inner,
+.el-input-custom .el-textarea__inner,
+.el-input-custom .el-textarea {
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------Input End-------------------------*/
+
+/* -------------------------Input Number Start-------------------------*/
+.el-input-number-custom > div,
+.el-input-number-custom .el-input-number,
+.el-input-number-custom .el-input, .el-input-number-custom .el-input__inner {
+    width: 100%;
+    height: 100%;
+}
+
+/* 控制按钮平均分配高度 */
+.el-input-number-custom .el-input-number__decrease,
+.el-input-number-custom .el-input-number__increase {
+    --el-input-number-controls-height: 50% !important;
+}
+
+/* -------------------------Input Number End-------------------------*/
+
+/* -------------------------Selec Start-------------------------*/
+.el-select-custom > div,
+.el-select-custom .el-select,
+.el-select-custom .select-trigger,
+.el-select-custom .el-input,
+.el-select-custom .el-input__inner {
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------Selec End-------------------------*/
+
+/* -------------------------Cascader Start-------------------------*/
+.el-cascader-custom > div,
+.el-cascader-custom .el-input,
+.el-cascader-custom .el-input__inner {
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------Cascader End-------------------------*/
+
+/* -------------------------TimePicker Start-------------------------*/
+.el-time-select-custom > div,
+.el-time-select-custom .el-select,
+.el-time-select-custom .select-trigger,
+.el-time-select-custom .el-input,
+.el-time-select-custom .el-input__inner {
+    width: 100%;
+    height: 100%;
+}
+
+.el-time-picker-custom > div,
+.el-time-picker-custom .el-input,
+.el-time-picker-custom .el-input__inner {
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------TimePicker End-------------------------*/
+
+/* -------------------------DatePicker Start-------------------------*/
+.el-date-picker-custom > div,
+.el-date-picker-custom .el-input,
+.el-date-picker-custom .el-input__inner {
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------DatePicker End-------------------------*/
+
+/* -------------------------Slider Start-------------------------*/
+.fgc-slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.fgc-slider .el-slider__marks-text{
+    word-break: keep-all;
+}
+
+    .fgc-slider.is-vertical {
+        padding: 12px 0;
+    }
+/* -------------------------Slider End-------------------------*/
+
+/* -------------------------Avatar Start-------------------------*/
+/* 当头像为圆形显示时，需要将badge进行偏移 */
+.el-avatar-circle-custom .el-badge__content {
+    right: 25%;
+    top: 10%;
+}
+
+.el-avatar-custom img {
+    width: 100%;
+}
+
+.el-avatar-custom div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------Avatar End-------------------------*/
+
+/* -------------------------Tag Start-------------------------*/
+.fgc-tag-scrollbar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.fgc-tag-container {
+    flex: 0 1 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fgc-tag-word-wrap .fgc-tag-container {
+    flex-wrap: wrap;
+    align-content: flex-start
+}
+
+.fgc-tag-scrollbar:not(.fgc-tag-word-wrap) .el-scrollbar__view {
+    height: 100%;
+}
+/* -------------------------Tag End-------------------------*/
+
+/* -------------------------Calendar Start-------------------------*/
+
+.el-calendar-custom .el-calendar {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    /**
+        user-select: none;
+
+        解决如下问题：
+            1. 点击日程或者标题会得到焦点 表现比较奇怪
+            2. 点击 日程的scrollbar 会在其它位置获取到焦点(当前双击的这一天的下一天)，双击则会选中
+
+        引来一个新的问题:
+            标题和日程则都无法选中文字，如果后续想修复此问题，则要综合考虑上面以上问题
+    */
+    user-select: none;
+}
+
+.el-calendar-custom .el-calendar__body, .el-calendar-custom .el-calendar-table, .el-calendar-custom .el-calendar-day {
+    height: 100%;
+}
+
+.el-calendar-custom .calendar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.el-calendar-custom .calendar-schedule-container {
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.el-calendar-custom .calendar-schedule-item {
+    margin: 5px 0;
+}
+
+.el-calendar-custom .calendar-schedule-item-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fgc-calendar-ellipsis {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 1px solid #a5a5a5;
+    background-color: #a5a5a5;
+}
+
+.calendar-date-container > div {
+    width: 19px;
+    display: flex;
+    justify-content: center;
+}
+/* -------------------------Calendar End-------------------------*/
+
+
+/* -------------------------Upload Start-------------------------*/
+.el-upload-custom .el-dialog {
+    --el-dialog-margin-top: 7vh;
+}
+
+.fgc-upload-dialog .el-dialog__body {
+    display: flex;
+    justify-content: center;
+}
+
+.el-upload-picture-custom .el-upload-list__item-thumbnail {
+    object-fit: contain;
+}
+
+.el-upload-custom.disable {
+    pointer-events: none !important;
+}
+
+    .el-upload-custom.disable a {
+        color: #a5a5a5 !important;
+    }
+
+/* -------------------------Upload End-------------------------*/
+/* -------------------------Tab Start-------------------------*/
+.el-tabs-custom .el-tabs__header.is-top { /*行高设置为自动时，会高出15个像素*/
+    margin-bottom: 0px;
+}
+
+.el-tabs-custom .fgc-default .el-tabs__header.is-top { /*行高设置为自动时，会高出15个像素*/
+    margin-bottom: 2px;
+}
+
+.el-tabs-custom .el-tabs__header.is-bottom { /*行高设置为自动时，会高出15个像素*/
+    margin-top: 0px;
+}
+
+.el-tabs-custom .el-tabs__header.is-top { /*行高设置为自动时，会高出15个像素*/
+    margin-bottom: 0px;
+}
+
+.el-tabs-custom .fgc-default .el-tabs__header.is-bottom { /*行高设置为自动时，会高出15个像素*/
+    margin-bottom: 2px;
+}
+
+.el-tabs-custom .el-tabs--border-card.el-tabs--top {
+    border-bottom: none;
+}
+
+.el-tabs-custom .el-tabs--border-card.el-tabs--bottom {
+    border-top: none;
+}
+
+.el-tabs-custom .el-tabs--border-card.el-tabs--left {
+    border-right: none;
+}
+
+.el-tabs-custom .el-tabs--border-card.el-tabs--right {
+    border-left: none;
+}
+
+.el-tabs-custom .el-tabs--left {
+    height: 100%;
+}
+
+.el-tabs-custom .el-tabs.el-tabs--bottom {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.el-tabs-custom .el-tabs__header.is-left {
+    width: 100%;
+}
+
+.el-tabs-custom .el-tabs--right {
+    height: 100%;
+}
+
+.el-tabs-custom .el-tabs__header.is-right {
+    width: 100%;
+}
+
+.el-tabs-custom .el-tabs__nav-wrap::after {
+    background-color: initial;
+}
+
+.el-tabs-custom .el-tabs--card > .el-tabs__header.is-left {
+    border-bottom: initial;
+}
+
+.el-tabs-custom .el-tabs--card > .el-tabs__header.is-right {
+    border-bottom: initial;
+}
+
+.el-tabs-custom .el-tabs--left .el-tabs__nav-wrap.is-left {
+    margin-right: 0px;
+}
+
+.el-tabs-custom .el-tabs--right .el-tabs__nav-wrap.is-right {
+    margin-left: 0px;
+}
+
+.el-tabs-custom .el-tabs__content {
+    padding: 0 !important;
+}
+/* -------------------------Tab End-------------------------*/
+
+/* -------------------------Menu Start-------------------------*/
+/*FORGUNCY-9476 [FromCN]elementUI menu icon not have selected style after collapse menu*/
+.el-menu-custom .el-menu--collapse .el-sub-menu.is-active .el-sub-menu__title {
+    color: var(--el-menu-active-color) !important;
+}
+
+.vertical-menu .el-menu-item {
+    line-height: normal;
+}
+
+.fgc-menu-badge-item{
+    display:flex;
+    right:1%;
+    top:-14%;
+}
+
+/* -------------------------Menu End-------------------------*/
+
+/* -------------------------Pagination Start-------------------------*/
+.el-pagination-custom .el-pager li {
+    background-color: transparent;
+}
+.el-pagination-custom .el-pagination button:disabled {
+    background-color: transparent;
+}
+.el-pagination-custom .el-pagination button {
+    background-color: transparent;
+}
+/* -------------------------Pagination End-------------------------*/
+/* -------------------------Progress Start-------------------------*/
+.fgc-el-progress {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* -------------------------Progress End-------------------------*/
+
+/* -------------------------Steps Start-------------------------*/
+.el-steps-custom .el-icon.el-step__icon-inner {
+    font-size: 24px;
+}
+/* -------------------------Steps Start-------------------------*/

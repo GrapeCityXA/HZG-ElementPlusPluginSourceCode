@@ -1,0 +1,32 @@
+﻿{
+  "assembly": [
+    "ElementUI.dll"
+  ],
+  "javascript": [
+    "Resources/element-plus@2.1.11.js",
+    "Resources/locales/zhCN.js",
+    "Resources/locales/en.js",
+    "Resources/locales/ja.js",
+    "Resources/locales/ko.js",
+    "Resources/dist.js"
+  ],
+  "css": [
+    "Resources/element-plus@2.1.11.css",
+    "Resources/customUI.css"
+  ],
+  "image": "Resources/Images/ElementUI.png",
+  "description": "ElementUI Components",
+  "description_ja": "",
+  "description_cn": "ElementUI 组件。",
+  "description_kr": "웹에서 사용할 수 있는 다양한 예쁜 UI와 기능을 제공하는 패키지입니다.",
+  "name": "ElementUI",
+  "name_ja": "",
+  "name_cn": "PC组件包-ElementPlus",
+  "name_kr": "엘리멘트UI",
+  "pluginType": "cellType,command",
+  "guid": "2CCB2F02-D923-491E-94E4-72C9BD8C5ABE",
+  "version": "8.0.100.0",
+  "dependenceVersion": "8.0.100.0",
+  "bundleJavaScript": false,
+  "bundleCSS": true
+}

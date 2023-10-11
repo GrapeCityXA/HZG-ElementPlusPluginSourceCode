@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ElementUI.WpfControls.InputBoxDrawingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementUI.WpfControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="150">
+    <Grid x:Name="root">
+        <Border IsEnabled="{Binding IsEnabled}" BorderBrush="#dcdfe6" Background="{Binding Background}" CornerRadius="4" BorderThickness="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <ContentControl Margin="11,0,-6,0"  Content="{Binding PrefixIcon}" VerticalAlignment="Center" Width="14" Height="14" Grid.Column="0" Visibility="{Binding PrefixIconVisibility}"></ContentControl>
+                <local:CellStyleTextBlock Margin="10,0,10,0" VerticalAlignment="Center" Grid.Column="1" CellStyle="{Binding CellStyle}" Text="{Binding Text}"></local:CellStyleTextBlock>
+                <local:CellStyleTextBlock Margin="10,0,10,0" VerticalAlignment="Center" Grid.Column="1" CellStyle="{Binding PlaceholderCellStyle}" Text="{Binding PlaceHolder}" Visibility="{Binding PlaceHolderVisibility}"></local:CellStyleTextBlock>
+                <ContentControl Margin="-6,0,11,0" Content="{Binding SuffixIcon}" VerticalAlignment="Center" Width="14" Height="14" Grid.Column="2" Visibility="{Binding SuffixIconVisibility}"></ContentControl>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

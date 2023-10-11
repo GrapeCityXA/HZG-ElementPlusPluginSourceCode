@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="ElementUI.WpfControls.DrawingObject.RateDrawingObject"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementUI.WpfControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <ContentControl Content="{Binding OnIcon}" Width="18" Height="18" Margin="0,0,6,0"></ContentControl>
+            <ContentControl Content="{Binding OnIcon}" Width="18" Height="18" Margin="0,0,6,0"></ContentControl>
+            <ContentControl Content="{Binding OnIcon}" Width="18" Height="18" Margin="0,0,6,0"></ContentControl>
+            <ContentControl Content="{Binding OffIcon}" Width="18" Height="18" Margin="0,0,6,0"></ContentControl>
+            <ContentControl Content="{Binding OffIcon}" Width="18" Height="18" Margin="0,0,6,0"></ContentControl>
+            <TextBlock Text="{Binding Text}" Foreground="{Binding TextColor}" FontSize="14"></TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>

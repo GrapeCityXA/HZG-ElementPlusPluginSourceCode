@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="ElementUI.WpfControls.TimelineDrawingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementUI.WpfControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="150">
+    <UserControl.Resources>
+        <DataTemplate x:Key="ItemTemplate">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Margin="0 0 10 0">
+                    <Border VerticalAlignment="Center" HorizontalAlignment="Center" Width="14" Height="14" Background="{Binding Color}" CornerRadius="14">
+                        <ContentControl VerticalAlignment="Center" Width="12" Height="12"  Content="{Binding Icon}" HorizontalAlignment="Center" />
+                    </Border>
+                    <Border Background="#e6e7e8" Width="2" Height="40" Visibility="{Binding Visibility}"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock FontSize="12" Foreground="{Binding TextBlockForeground}" Text="{Binding Timestamp}" Visibility="{Binding TopTimestampVisibility}" Margin="0 0 0 5"/>
+                    <TextBlock FontSize="14" Foreground="#303133" Margin="0 -5 0 0" Text="{Binding Content}" />
+                    <TextBlock FontSize="12" Foreground="{Binding TextBlockForeground}" Text="{Binding Timestamp}" Visibility="{Binding BottomTimestamptVisibility}" Margin="0 5 0 0"/>
+                </StackPanel>
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="5 5 0 0" x:Name="root">
+            <ItemsControl Height="300" ItemsSource="{Binding Nodes}" ItemTemplate="{StaticResource ItemTemplate}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

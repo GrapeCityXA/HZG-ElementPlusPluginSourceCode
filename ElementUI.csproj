@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8610D734-E7C8-4041-9E42-1224922EEE06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ElementUI</RootNamespace>
+    <AssemblyName>ElementUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptModuleKind />
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptOutFile>Resources/dist.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Forguncy.Commands">
+      <HintPath>C:\Program Files\Forguncy 8\Website\designerBin\Forguncy.Commands.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GrapeCity.Forguncy.CellTypes">
+      <HintPath>C:\Program Files\Forguncy 8\Website\designerBin\GrapeCity.Forguncy.CellTypes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GrapeCity.Forguncy.CellTypes.Design">
+      <HintPath>C:\Program Files\Forguncy 8\Website\designerBin\GrapeCity.Forguncy.CellTypes.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GrapeCity.Forguncy.Plugin">
+      <HintPath>C:\Program Files\Forguncy 8\Website\designerBin\GrapeCity.Forguncy.Plugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GrapeCity.Forguncy.Plugin.Design">
+      <HintPath>C:\Program Files\Forguncy 8\Website\designerBin\GrapeCity.Forguncy.Plugin.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CellTypes\Breadcrumb.cs" />
+    <Compile Include="CellTypes\CalendarCellType.cs" />
+    <Compile Include="CellTypes\CascaderCellType.cs" />
+    <Compile Include="CellTypes\Common.cs" />
+    <Compile Include="CellTypes\DatePickerCellType.cs" />
+    <Compile Include="CellTypes\Input.cs" />
+    <Compile Include="CellTypes\InputNumberCellType.cs" />
+    <Compile Include="CellTypes\AvatarCellType.cs" />
+    <Compile Include="CellTypes\PaginationCellType.cs" />
+    <Compile Include="CellTypes\ProgressCellType.cs" />
+    <Compile Include="CellTypes\NavMenuCellType.cs" />
+    <Compile Include="CellTypes\RateCellType.cs" />
+    <Compile Include="CellTypes\SelectCellType.cs" />
+    <Compile Include="CellTypes\BackupTopCellType.cs" />
+    <Compile Include="CellTypes\TabHeader.cs" />
+    <Compile Include="CellTypes\Tag.cs" />
+    <Compile Include="CellTypes\TransferCellTyle.cs" />
+    <Compile Include="CellTypes\TimelineCellType.cs" />
+    <Compile Include="CellTypes\StepsCellType.cs" />
+    <Compile Include="CellTypes\SliderCellType.cs" />
+    <Compile Include="CellTypes\TimePickerCellType.cs" />
+    <Compile Include="CellTypes\UploadCellType.cs" />
+    <Compile Include="CellTypes\Utils.cs" />
+    <Compile Include="Commands\ELCommandBase.cs" />
+    <Compile Include="Commands\Notification.cs" />
+    <Compile Include="Commands\ShowMessageBox.cs" />
+    <Compile Include="Commands\ShowMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\CellStyleTextBlock.xaml.cs">
+      <DependentUpon>CellStyleTextBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\BackupTopDrawingObject.xaml.cs">
+      <DependentUpon>BackupTopDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\AvatarDrawingObject.xaml.cs">
+      <DependentUpon>AvatarDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\BreadcrumbDrawingObject.xaml.cs">
+      <DependentUpon>BreadcrumbDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\TabHeaderDrawingObject.xaml.cs">
+      <DependentUpon>TabHeaderDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\TagDrawingObject.xaml.cs">
+      <DependentUpon>TagDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\CalendarCellTypeDrawingControl.xaml.cs">
+      <DependentUpon>CalendarCellTypeDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\Common.cs" />
+    <Compile Include="WpfControls\DrawingObject\DateTimePickerDrawingControl.xaml.cs">
+      <DependentUpon>DateTimePickerDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\PaginationDrawingControl.xaml.cs">
+      <DependentUpon>PaginationDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\TimelineDrawingControl.xaml.cs">
+      <DependentUpon>TimelineDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\NavMenuDrawingControl.xaml.cs">
+      <DependentUpon>NavMenuDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\RateDrawingObject.xaml.cs">
+      <DependentUpon>RateDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\StepsDrawingControl.xaml.cs">
+      <DependentUpon>StepsDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\UploadFileDrawingObject.xaml.cs">
+      <DependentUpon>UploadFileDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\UploadPictureListDrawingObject.xaml.cs">
+      <DependentUpon>UploadPictureListDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DialogWindow.xaml.cs">
+      <DependentUpon>DialogWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\InputNumberDrawingControl.xaml.cs">
+      <DependentUpon>InputNumberDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\InputBoxDrawingControl.xaml.cs">
+      <DependentUpon>InputBoxDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\CircleProgressDrawingObject.xaml.cs">
+      <DependentUpon>CircleProgressDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\LineProgressDrawingObject.xaml.cs">
+      <DependentUpon>LineProgressDrawingObject.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\SliderDrawingControl.xaml.cs">
+      <DependentUpon>SliderDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\TransferDrawingControl.xaml.cs">
+      <DependentUpon>TransferDrawingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfControls\DrawingObject\TransferListControl.xaml.cs">
+      <DependentUpon>TransferListControl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tsconfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".eslintrc" />
+    <None Include="PluginConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <TypeScriptCompile Include="Resources\CellTypes\BackupTop.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\TabHeader.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Tag.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Pagination.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Breadcrumb.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Base.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Avatar.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Calendar.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Cascader.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\CommonHelper.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\DatePicker.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Input.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\InputNumber.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\NavMenu.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Progress.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Rate.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Select.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Slider.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Steps.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Timeline.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\TimePicker.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Transfer.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\TreeHelper.ts" />
+    <TypeScriptCompile Include="Resources\CellTypes\Upload.ts" />
+    <TypeScriptCompile Include="Resources\Commands\ELCommandBase.ts" />
+    <TypeScriptCompile Include="Resources\Commands\ShowMessage.ts" />
+    <TypeScriptCompile Include="Resources\Commands\ShowMessageBox.ts" />
+    <TypeScriptCompile Include="Resources\Commands\ShowNotification.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\window.d.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\forguncy.Internal.d.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\forguncy.d.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\forguncy.Plugin.d.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\jquery.d.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\element-ui.d.ts" />
+    <TypeScriptCompile Include="Resources\Declaration\vue.d.ts" />
+    <TypeScriptCompile Include="Resources\Utils\DayjsHelper.ts" />
+    <TypeScriptCompile Include="Resources\Utils\ElementIcon.ts" />
+    <TypeScriptCompile Include="Resources\Utils\Date.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.*.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\customUI.css" />
+    <Resource Include="Resources\images\TabHeader.png" />
+    <Resource Include="Resources\images\BackupTop.png" />
+    <Content Include="Resources\locales\en.js" />
+    <Content Include="Resources\locales\ja.js" />
+    <Content Include="Resources\locales\ko.js" />
+    <Content Include="Resources\locales\zhCN.js" />
+    <Resource Include="Resources\images\Tag.png" />
+    <Resource Include="Resources\images\Pagination.png" />
+    <Resource Include="Resources\images\Search.png" />
+    <Resource Include="Resources\images\SetDataSource.png" />
+    <Resource Include="Resources\images\NavMenu.png" />
+    <Resource Include="Resources\images\Table.png" />
+    <Resource Include="Resources\images\Image_512.png" />
+    <TypeScriptCompile Include="Resources\ElementUITheme.ts" />
+    <Resource Include="Resources\images\Breadcrumb.png" />
+    <Resource Include="Resources\images\Avatar.png" />
+    <Resource Include="Resources\images\Calendar.png" />
+    <Resource Include="Resources\images\Carousel.png" />
+    <Resource Include="Resources\images\Cascader.png" />
+    <Resource Include="Resources\images\DatePicker.png" />
+    <Resource Include="Resources\images\DateTimePicker.png" />
+    <Resource Include="Resources\images\ElementUI.png" />
+    <Resource Include="Resources\images\Input.png" />
+    <Resource Include="Resources\images\InputNumber.png" />
+    <Resource Include="Resources\images\Message.png" />
+    <Resource Include="Resources\images\Notification.png" />
+    <Resource Include="Resources\images\Progress.png" />
+    <Resource Include="Resources\images\Rate.png" />
+    <Resource Include="Resources\images\Select.png" />
+    <Resource Include="Resources\images\Slider.png" />
+    <Resource Include="Resources\images\Steps.png" />
+    <Resource Include="Resources\images\Timeline.png" />
+    <Resource Include="Resources\images\TimePicker.png" />
+    <Resource Include="Resources\images\Transfer.png" />
+    <Resource Include="Resources\images\MessageBox.png" />
+    <Resource Include="Resources\images\Tree.png" />
+    <Resource Include="Resources\images\Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+      <ExcludeAssets>runtime</ExcludeAssets>
+      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="WpfControls\CellStyleTextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\BackupTopDrawingObject.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\AvatarDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\BreadcrumbDrawingObject.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\TabHeaderDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\TagDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\CalendarCellTypeDrawingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\DateTimePickerDrawingControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\PaginationDrawingControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\TimelineDrawingControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\NavMenuDrawingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\RateDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\StepsDrawingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\UploadFileDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\UploadPictureListDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DialogWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\InputNumberDrawingControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\InputBoxDrawingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\CircleProgressDrawingObject.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\LineProgressDrawingObject.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\SliderDrawingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\TransferDrawingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WpfControls\DrawingObject\TransferListControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>"$(ProjectDir)PackageTool\PluginPackageTool.exe" "$(ProjectDir)\" "$(ConfigurationName)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

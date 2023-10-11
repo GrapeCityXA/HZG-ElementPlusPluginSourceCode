@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="ElementUI.WpfControls.InputNumberDrawingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementUI.WpfControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="250">
+    <Grid x:Name="root">
+        <Border IsEnabled="{Binding IsEnabled}" BorderBrush="#dcdfe6" Background="{Binding Background}" CornerRadius="4" BorderThickness="1">
+            <Grid>
+                <Grid.Resources>
+                    <Style x:Key="PlusMinusIcon" TargetType="ContentControl">
+                        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                        <Setter Property="Width" Value="14"></Setter>
+                        <Setter Property="Height" Value="14"></Setter>
+                    </Style>
+                    <Style x:Key="UpDownIcon" BasedOn="{StaticResource PlusMinusIcon}" TargetType="ContentControl">
+                        <Setter Property="Width" Value="12"></Setter>
+                        <Setter Property="Height" Value="12"></Setter>
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border BorderBrush="#dcdfe6" BorderThickness="0,0,1,0" Width="40" CornerRadius="4,0,0,4" Background="#f5f7fa" Visibility="{Binding PlusMinusIconVisibility}">
+                    <ContentControl Style="{StaticResource PlusMinusIcon}" Content="{Binding minusIcon}"></ContentControl>
+                </Border>
+                <local:CellStyleTextBlock Margin="4,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Text="{Binding Text}" CellStyle="{Binding CellStyle}" ></local:CellStyleTextBlock>
+                <TextBlock Margin="4,0" Foreground="#C0C4CC"  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Text="{Binding PlaceHolder}" FontSize="14" Visibility="{Binding PlaceHolderVisibility}"></TextBlock>
+                <Border BorderBrush="#dcdfe6" BorderThickness="1,0,0,0"  Width="40" CornerRadius="0,4,4,0" Background="#f5f7fa" Grid.Column="2" Visibility="{Binding PlusMinusIconVisibility}">
+                    <ContentControl Style="{StaticResource PlusMinusIcon}" Content="{Binding plusIcon}"></ContentControl>
+                </Border>
+                <Grid Width="40" Grid.Column="3" Visibility="{Binding SpinIconVisbility}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Border BorderBrush="#dcdfe6" BorderThickness="1,0,0,1"   CornerRadius="0,4,0,0" Background="#f5f7fa" >
+                        <ContentControl Style="{StaticResource UpDownIcon}" Content="{Binding upIcon}"></ContentControl>
+                    </Border>
+                    <Border Grid.Row="1" BorderBrush="#dcdfe6" BorderThickness="1,0,0,0" CornerRadius="0,0,4,0" Background="#f5f7fa">
+                        <ContentControl Style="{StaticResource UpDownIcon}" Content="{Binding downIcon}"></ContentControl>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ElementUI_DisplayName" xml:space="preserve">
+    <value>엘리먼트UI</value>
+  </data>
+  <data name="ElementUI_TargetCell" xml:space="preserve">
+    <value>대상 셀</value>
+  </data>
+  <data name="AdvancedSettings" xml:space="preserve">
+    <value>고급 설정</value>
+  </data>
+  <data name="Avatar" xml:space="preserve">
+    <value>아바타</value>
+  </data>
+  <data name="AvatarCellType_badge" xml:space="preserve">
+    <value>알림 표시 메시지 입력</value>
+  </data>
+  <data name="AvatarCellType_ChooseAvatar" xml:space="preserve">
+    <value>아바타 선택</value>
+  </data>
+  <data name="AvatarCellType_circle" xml:space="preserve">
+    <value>원형</value>
+  </data>
+  <data name="AvatarCellType_CommandList" xml:space="preserve">
+    <value>편집 명령</value>
+  </data>
+  <data name="AvatarCellType_contain" xml:space="preserve">
+    <value>포함</value>
+  </data>
+  <data name="AvatarCellType_cover" xml:space="preserve">
+    <value>커버</value>
+  </data>
+  <data name="AvatarCellType_fill" xml:space="preserve">
+    <value>채우기</value>
+  </data>
+  <data name="AvatarCellType_fit" xml:space="preserve">
+    <value>맞추기</value>
+  </data>
+  <data name="AvatarCellType_icon" xml:space="preserve">
+    <value>기본 아바타</value>
+  </data>
+  <data name="AvatarCellType_none" xml:space="preserve">
+    <value>원본 크기</value>
+  </data>
+  <data name="AvatarCellType_scaleDown" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="AvatarCellType_shape" xml:space="preserve">
+    <value>아바타 모양</value>
+  </data>
+  <data name="AvatarCellType_showSystemAvatar" xml:space="preserve">
+    <value>시스템 아바타 표시</value>
+  </data>
+  <data name="AvatarCellType_showSystemAvatar_Description" xml:space="preserve">
+    <value>「시스템 아바타 표시」 옵션을 체크하시면 「아바타 셀 유형」은 시스템 기본 사용자 이름을 셀 값에 표시합니다. 현재 사용자의 이름이 "홍길동"이라면 "홍길동"의 아바타를 표시하려 하려고 시도하지만, 이 아바타가 설정되지 않은 경우 셀에 사용자 이름을 대신 표시합니다. 
+
+사용자 이름을 가져오시려는 경우 UserInfoView 또는 %CurrentUser% 키워드를 사용하십시오.</value>
+  </data>
+  <data name="AvatarCellType_square" xml:space="preserve">
+    <value>정사각형</value>
+  </data>
+  <data name="BackupTopCellType_Bottom" xml:space="preserve">
+    <value>페이지 하단까지의 거리</value>
+  </data>
+  <data name="BackupTopCellType_PluginName" xml:space="preserve">
+    <value>맨 위로 돌아가기</value>
+  </data>
+  <data name="BackupTopCellType_Right" xml:space="preserve">
+    <value>페이지 오른쪽까지의 거리</value>
+  </data>
+  <data name="BackupTopCellType_VisibilityHeight" xml:space="preserve">
+    <value>스크롤 높이가 이 매개변수 값에 도달하면 표시</value>
+  </data>
+  <data name="Breadcrumb" xml:space="preserve">
+    <value>브레드크럼</value>
+  </data>
+  <data name="Breadcrumb_ClickCommand" xml:space="preserve">
+    <value>클릭 명령 편집</value>
+  </data>
+  <data name="Breadcrumb_ClickCommand_InitParamValues" xml:space="preserve">
+    <value>페이지 이름</value>
+  </data>
+  <data name="Breadcrumb_defaultBehavior" xml:space="preserve">
+    <value>기본 클릭 동작</value>
+  </data>
+  <data name="Breadcrumb_defaultBehavior_Description" xml:space="preserve">
+    <value>기본 클릭 동작은 페이지 내 브레드크럼 부분을 클릭하면 페이지의 해당 부분으로 자동으로 이동하는 것입니다. 체크를 해제하시면 클릭 동작을 사용자 정의하여 클릭 동작을 설정하실 수 있습니다.</value>
+  </data>
+  <data name="Breadcrumb_separator" xml:space="preserve">
+    <value>구분자</value>
+  </data>
+  <data name="BreadcrumbCellType_NullPreview" xml:space="preserve">
+    <value>홈페이지/프로모션 관리/프로모션 목록/프로모션 상세</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>달력</value>
+  </data>
+  <data name="CalendarCellType_bindingOptions" xml:space="preserve">
+    <value>일정 구성</value>
+  </data>
+  <data name="CalendarCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>date:날짜|text:텍스트</value>
+  </data>
+  <data name="CalendarCellType_date" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="CalendarCellType_DBClickCommand" xml:space="preserve">
+    <value>더블 클릭 명령 편집</value>
+  </data>
+  <data name="CalendarCellType_DBClickCommand_InitParamValues" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="CalendarCellType_DefaultFormatString" xml:space="preserve">
+    <value>yyyy"년"MM"월"</value>
+  </data>
+  <data name="CalendarCellType_firstDayOfWeek" xml:space="preserve">
+    <value>주 시작일</value>
+  </data>
+  <data name="CalendarCellType_NextMonth" xml:space="preserve">
+    <value>다음 달</value>
+  </data>
+  <data name="CalendarCellType_PreMonth" xml:space="preserve">
+    <value>이전 달</value>
+  </data>
+  <data name="CalendarCellType_text" xml:space="preserve">
+    <value>텍스트</value>
+  </data>
+  <data name="CalendarCellType_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="CalendarCellType_Weekdays" xml:space="preserve">
+    <value>월,화,수,목,금,토,일</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Cascader" xml:space="preserve">
+    <value>가로 확장 선택기</value>
+  </data>
+  <data name="CascaderCellType_bindingOptions" xml:space="preserve">
+    <value>연동 항목 구성</value>
+  </data>
+  <data name="CascaderCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:값|label:레이블|parentValue:상위 노드</value>
+  </data>
+  <data name="CascaderCellType_CheckedItems" xml:space="preserve">
+    <value>선택된 노드</value>
+  </data>
+  <data name="CascaderCellType_checkStrictly" xml:space="preserve">
+    <value>선택된 상하위 노드를 지속 표시</value>
+  </data>
+  <data name="CascaderCellType_emitPath" xml:space="preserve">
+    <value>선택 노드까지의 전체 경로 값 반환</value>
+  </data>
+  <data name="CascaderCellType_dataSource" xml:space="preserve">
+    <value>데이터 소스</value>
+  </data>
+  <data name="CascaderCellType_expandTrigger" xml:space="preserve">
+    <value>하위 메뉴 확장 방식</value>
+  </data>
+  <data name="CascaderCellType_placeholder" xml:space="preserve">
+    <value>입력 안내 문구</value>
+  </data>
+  <data name="CascaderCellType_separator" xml:space="preserve">
+    <value>구분자</value>
+  </data>
+  <data name="Common_DefaultValue" xml:space="preserve">
+    <value>기본 값</value>
+  </data>
+  <data name="Common_IsDisabled" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="Common_UIPermissions" xml:space="preserve">
+    <value>UI 권한 편집</value>
+  </data>
+  <data name="Common_DataValidationLink" xml:space="preserve">
+    <value>데이터 유효성 검증</value>
+  </data>
+  <data name="Common_CommandList" xml:space="preserve">
+    <value>명령 편집</value>
+  </data>
+  <data name="CascaderCellType_checkStrictly_Description" xml:space="preserve">
+    <value>라디오버튼을 클릭해야 선택되도록 사용자의 선택을 더 확실히 받고, 선택된 노드는 다른 선택이 발생할 때까지 그 경로와 결과를 강조 표시합니다.</value>
+  </data>
+  <data name="CascaderCellType_multiple" xml:space="preserve">
+    <value>다중선택</value>
+  </data>
+  <data name="CascaderCellType_options" xml:space="preserve">
+    <value>항목 구성</value>
+  </data>
+  <data name="CascaderCellType_options_DefaultNodeName" xml:space="preserve">
+    <value>노드</value>
+  </data>
+  <data name="CascaderCellType_parentValue" xml:space="preserve">
+    <value>상위 노드</value>
+  </data>
+  <data name="CascaderCellType_placeholder_DefaultValue" xml:space="preserve">
+    <value>선택하십시오</value>
+  </data>
+  <data name="CascaderCellType_GetCheckedNodes" xml:space="preserve">
+    <value>선택된 노드 가져오기</value>
+  </data>
+  <data name="CascaderCellType_Hover" xml:space="preserve">
+    <value>마우스 커서 올림</value>
+  </data>
+  <data name="CascaderCellType_Click" xml:space="preserve">
+    <value>마우스 클릭</value>
+  </data>
+  <data name="CascaderCellType_collapseTags" xml:space="preserve">
+    <value>다중 선택 시 숫자 표시</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>입력 상자</value>
+  </data>
+  <data name="Input_clearable" xml:space="preserve">
+    <value>지우기 버튼 표시</value>
+  </data>
+  <data name="Input_Select" xml:space="preserve">
+    <value>텍스트 선택</value>
+  </data>
+  <data name="Input_Focus" xml:space="preserve">
+    <value>커서 이동</value>
+  </data>
+  <data name="Input_maxlength" xml:space="preserve">
+    <value>최대 길이</value>
+  </data>
+  <data name="Input_showPassword" xml:space="preserve">
+    <value>비밀번호로 표시</value>
+  </data>
+  <data name="Input_type" xml:space="preserve">
+    <value>사용 유형</value>
+  </data>
+  <data name="Input_suffixIcon" xml:space="preserve">
+    <value>뒤쪽 표시 아이콘</value>
+  </data>
+  <data name="Input_prefixIcon" xml:space="preserve">
+    <value>앞쪽 표시 아이콘</value>
+  </data>
+  <data name="Input_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="Input_resize" xml:space="preserve">
+    <value>크기 조정</value>
+  </data>
+  <data name="IconEditor_ChooseIcon" xml:space="preserve">
+    <value>아이콘 선택</value>
+  </data>
+  <data name="Input_showWordLimit" xml:space="preserve">
+    <value>입력 단어 수 표시</value>
+  </data>
+  <data name="InputCellType_Focus_Description" xml:space="preserve">
+    <value>입력 상자에 커서를 이동</value>
+  </data>
+  <data name="InputCellType_resize_Description" xml:space="preserve">
+    <value>열 너비 및 행 높이 자동 맞춤</value>
+  </data>
+  <data name="InputCellType_resize_DisplayList" xml:space="preserve">
+    <value>크기 고정|양방향 가능|수평 늘리기|수직 늘리기</value>
+  </data>
+  <data name="InputNumberCellType_SetMaxValue" xml:space="preserve">
+    <value>최대 값 설정</value>
+  </data>
+  <data name="InputNumberCellType_SetMinValue" xml:space="preserve">
+    <value>최소 값 설정</value>
+  </data>
+  <data name="Input_placeholder" xml:space="preserve">
+    <value>입력 안내</value>
+  </data>
+  <data name="InputNumberCellType_step" xml:space="preserve">
+    <value>증분 크기 설정</value>
+  </data>
+  <data name="InputNumber" xml:space="preserve">
+    <value>숫자 표시 상자</value>
+  </data>
+  <data name="InputNumberCellType_controls" xml:space="preserve">
+    <value>증분 버튼 표시</value>
+  </data>
+  <data name="InputNumberCellType_controlsPosition" xml:space="preserve">
+    <value>증분 버튼을 오른쪽에 표시</value>
+  </data>
+  <data name="InputNumberCellType_placeholder" xml:space="preserve">
+    <value>입력 안내</value>
+  </data>
+  <data name="InputNumberCellType_precision" xml:space="preserve">
+    <value>소수 점 표시 자릿수</value>
+  </data>
+  <data name="InputNumberCellType_stepStrictly" xml:space="preserve">
+    <value>증분 범위 외 직접 입력 비허용</value>
+  </data>
+  <data name="InputNumberCellType_SetStep" xml:space="preserve">
+    <value>증분 설정</value>
+  </data>
+  <data name="InputNumberCellType_Select" xml:space="preserve">
+    <value>텍스트 선택</value>
+  </data>
+  <data name="InputNumberCellType_Focus" xml:space="preserve">
+    <value>커서 이동</value>
+  </data>
+  <data name="InputNumberCellType_Focus_Description" xml:space="preserve">
+    <value>숫자 표시 상자로 커서 이동</value>
+  </data>
+  <data name="InputNumberCellType_IsDisabled" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="InputNumberCellType_max" xml:space="preserve">
+    <value>최대 값</value>
+  </data>
+  <data name="InputNumberCellType_min" xml:space="preserve">
+    <value>최소 값</value>
+  </data>
+  <data name="InputNumberCellType_Select_Description" xml:space="preserve">
+    <value>숫자 표시 상자에 표시된 텍스트를 선택</value>
+  </data>
+  <data name="InputCellType_Select_Description" xml:space="preserve">
+    <value>입력 상자에 표시된 텍스트를 선택</value>
+  </data>
+  <data name="InputCellType_type_DisplayList" xml:space="preserve">
+    <value>한 줄 입력|비밀번호 형태 표시|여러 줄 입력</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="SelectCellType_placeholder" xml:space="preserve">
+    <value>입력 안내</value>
+  </data>
+  <data name="SelectCellType_options" xml:space="preserve">
+    <value>항목 구성</value>
+  </data>
+  <data name="SelectCellType_noMatchText_DefaultValue" xml:space="preserve">
+    <value>일치하는 데이터 없음</value>
+  </data>
+  <data name="SelectCellType_noMatchText" xml:space="preserve">
+    <value>내용이 비어있을 때 텍스트 표시</value>
+  </data>
+  <data name="SelectCellType_bindingOptions" xml:space="preserve">
+    <value>연동 항목 구성</value>
+  </data>
+  <data name="Selector" xml:space="preserve">
+    <value>항목 선택기</value>
+  </data>
+  <data name="SelectCellType_useBinding" xml:space="preserve">
+    <value>데이터 연동</value>
+  </data>
+  <data name="SelectCellType_valueProperty" xml:space="preserve">
+    <value>값 속성</value>
+  </data>
+  <data name="SelectCellType_IsDisabled" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="SelectCellType_Focus" xml:space="preserve">
+    <value>커서 이동</value>
+  </data>
+  <data name="SelectCellType_Focus_Description" xml:space="preserve">
+    <value>항목 선택기로 커서를 이동</value>
+  </data>
+  <data name="SelectCellType_defaultMaxOptionsCount" xml:space="preserve">
+    <value>최대 항목 수</value>
+  </data>
+  <data name="SelectCellType_dataSource" xml:space="preserve">
+    <value>데이터 소스</value>
+  </data>
+  <data name="SelectCellType_multiple" xml:space="preserve">
+    <value>다중 선택 모드</value>
+  </data>
+  <data name="SelectCellType_multipleLimit" xml:space="preserve">
+    <value>최대 다중 선택 수</value>
+  </data>
+  <data name="SelectCellType_defaultSetting" xml:space="preserve">
+    <value>옵션1,옵션2,옵션3,옵션4,옵션5</value>
+  </data>
+  <data name="SelectCellType_collapseTags" xml:space="preserve">
+    <value>다중 선택 모드 시 숫자 표시</value>
+  </data>
+  <data name="SelectCellType_clearable" xml:space="preserve">
+    <value>선택 후 지우기 버튼 표시</value>
+  </data>
+  <data name="SelectCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:값|label:레이블</value>
+  </data>
+  <data name="SelectCellType_labelProperty" xml:space="preserve">
+    <value>레이블 속성</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByObjArray_Description" xml:space="preserve">
+    <value>동적 JSON 객체를 셀의 데이터 소스로 사용할 수 있습니다. 사용 가능한 JSON 형식의 예는 다음과 같습니다.
+[
+    {"value": 1, "label": "Banana"},
+    {"value": 2, "label": "Apple"},
+    {"value": 3, "label": "Pear"}
+]
+위 예제에서 '값 속성'에는 value를 설정하고, '레이블 속성'에는 label을 설정했습니다.
+일반적으로 JSON 데이터 소스는 「HTTP 요청 명령」 혹은 「서버단 명령」을 이용하셔서 다른 웹 서비스에서 불러오실 수 있습니다.</value>
+  </data>
+  <data name="SelectCellType_label" xml:space="preserve">
+    <value>레이블</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByStringArray_Description" xml:space="preserve">
+    <value>동적 JSON 객체를 셀의 데이터 소스로 사용할 수 있습니다. 사용 가능한 JSON 형식의 예는 다음과 같습니다.
+[
+    "Banana",
+    "Apple",
+    "Pear"
+]
+일반적으로 JSON 데이터 소스는 「HTTP 요청 명령」 혹은 「서버단 명령」을 이용하셔서 다른 웹 서비스에서 불러오실 수 있습니다.</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByStringArray" xml:space="preserve">
+    <value>데이터 소스 설정 (문자열 배열)</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByObjArray_labelProperty_Description" xml:space="preserve">
+    <value>레이블 속성이 설정되지 않은 경우 값 속성과 동일한 것으로 간주됩니다.</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByObjArray" xml:space="preserve">
+    <value>데이트 소스 설정 (객체 배열)</value>
+  </data>
+  <data name="SelectCellType_placeholder_DefaultValue" xml:space="preserve">
+    <value>선택하십시오</value>
+  </data>
+  <data name="SelectCellType_allowCreate" xml:space="preserve">
+    <value>직접 입력 생성 허용</value>
+  </data>
+  <data name="SelectCellType_reserveKeyword" xml:space="preserve">
+    <value>입력 검색어 유지</value>
+  </data>
+  <data name="SelectCellType_reserveKeyword_Description" xml:space="preserve">
+    <value>다중 선택 모드에서 검색어 입력 시 검색어를 유지합니다.</value>
+  </data>
+  <data name="SelectCellType_filterable" xml:space="preserve">
+    <value>항목 검색 가능</value>
+  </data>
+  <data name="SelectCellType_filterInServer" xml:space="preserve">
+    <value>서버 내 데이터 연동 검색</value>
+  </data>
+  <data name="SelectCellType_filterInServerOptions" xml:space="preserve">
+    <value>서버 내 데이터 연동 검색 설정</value>
+  </data>
+  <data name="SelectCellType_loadingText_DefaultValue" xml:space="preserve">
+    <value>불러오는 중</value>
+  </data>
+  <data name="SelectCellType_loadingText" xml:space="preserve">
+    <value>불러오기 표시</value>
+  </data>
+  <data name="SelectCellType_matchMethod" xml:space="preserve">
+    <value>맞춤 방식</value>
+  </data>
+  <data name="SelectCellType_matchMethod_DisplayList" xml:space="preserve">
+    <value>검색어 포함|검색어로 시작</value>
+  </data>
+  <data name="SelectCellType_maxFilterResultCount" xml:space="preserve">
+    <value>검색 결과 표시 최대 수</value>
+  </data>
+  <data name="SelectCellType_noDataText" xml:space="preserve">
+    <value>값이 없는 경우 표시 내용</value>
+  </data>
+  <data name="SelectCellType_noDataText_DefaultValue" xml:space="preserve">
+    <value>데이터 없음</value>
+  </data>
+  <data name="NoLimit" xml:space="preserve">
+    <value>무제한</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>알림</value>
+  </data>
+  <data name="MethodName_ReloadBindingItems" xml:space="preserve">
+    <value>연동 데이터 새로고침</value>
+  </data>
+  <data name="MethodName_ReloadBindingItems_Description" xml:space="preserve">
+    <value>연동 데이터가 변경된 후 자동으로 연동되지 않는 경우 이 작업을 사용하여 연동 데이터들을 새로고침할 수 있습니다.</value>
+  </data>
+  <data name="CascaderCellType_checkStrictly_DefaultValue" xml:space="preserve">
+    <value>사용자의 선택을 더 확실히 하기 위해 라디오버튼을 사용하고, 한 번 선택된 노드와 그 경로는 다른 선택이 발생할 때까지 표시합니다.</value>
+  </data>
+  <data name="CascaderCellType_childrenProperty" xml:space="preserve">
+    <value>하위 속성</value>
+  </data>
+  <data name="CascaderCellType_childrenProperty_Description" xml:space="preserve">
+    <value>여러 단계의 레이블 속성을 사용하실 때는 "|" 표시로 분리하실 수 있습니다. 예) 경기도|성남시</value>
+  </data>
+  <data name="CascaderCellType_clearable" xml:space="preserve">
+    <value>선택 후 지우기 버튼 표시</value>
+  </data>
+  <data name="CascaderCellType_filterable" xml:space="preserve">
+    <value>항목 검색 가능</value>
+  </data>
+  <data name="CascaderCellType_label" xml:space="preserve">
+    <value>레이블</value>
+  </data>
+  <data name="CascaderCellType_labelProperty" xml:space="preserve">
+    <value>레이블 속성</value>
+  </data>
+  <data name="CascaderCellType_labelProperty_Description" xml:space="preserve">
+    <value>레이블 속성을 설정하지 않으면 값 속성과 동일한 것으로 간주합니다.
+여러 단계의 레이블 속성을 사용하실 때는 "|" 표시로 분리하실 수 있습니다. 예) 경기도|성남시</value>
+  </data>
+  <data name="CascaderCellType_leafOnly" xml:space="preserve">
+    <value>최하위 노드</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByIdPidTable" xml:space="preserve">
+    <value>데이터 소스 설정 (2차원 테이블)</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByIdPidTable_labelProperty_Description" xml:space="preserve">
+    <value>레이블 속성을 설정하지 않으면 값 속성과 동일한 것으로 간주합니다.</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByIdPidTable_Description" xml:space="preserve">
+    <value>동적 JSON 객체를 셀의 데이터 소스로 사용할 수 있습니다. 사용 가능한 JSON 형식의 예는 다음과 같습니다.
+[
+    {"value": 1, "label": "Department1", "parentValue": null},
+    {"value": 2, "label": "Department1-1", "parentValue": 1},
+    {"value": 3, "label": "Department1-2", "parentValue": 1},
+    {"value": 4, "label": "Department1-2-1", "parentValue": 3},
+    {"value": 5, "label": "Department2", "parentValue": null},
+    {"value": 6, "label": "Department3", "parentValue": null}
+]
+위 예제에서 '값 속성'에는 value를 설정하고, '레이블 속성'에는 label을 설정하고, '상위 노드 속성'에는 'parentValue'를 설정했습니다.
+이 테이블 형식은 일반적인 데이터베이스 형태의 다단계 데이터 형식입니다.</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByObjTree" xml:space="preserve">
+    <value>데이터 소스 설정 (객체 트리)</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByObjTree_Description" xml:space="preserve">
+    <value>동적 JSON 객체를 셀의 데이터 소스로 사용할 수 있습니다. 사용 가능한 JSON 형식의 예는 다음과 같습니다.
+[
+    {
+        "value": 1,
+        "label": "Department1",
+        "children": [
+            {
+                "value": 2,
+                "label": "Sub-department1"
+            },
+            {
+                "value": 3,
+                "label": "Sub-department2",
+                "children": [
+                    {
+                       "value": 4,
+                       "label": "Sub-department2-1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "value": 5,
+        "label": "Department2"
+    },
+    {
+        "value": 6,
+        "label": "Department3"
+    }
+]
+위 예제에서 '값 속성'에는 value를 설정하고, '레이블 속성'에는 label을 설정하고, '하위 노드 속성'에는 'children'을 설정했습니다.
+일반적으로 JSON 데이터 소스는 「HTTP 요청 명령」 혹은 「서버단 명령」을 이용하셔서 다른 웹 서비스에서 불러오실 수 있습니다.</value>
+  </data>
+  <data name="CascaderCellType_showAllLevels" xml:space="preserve">
+    <value>선택 노드의 전체 경로 표시</value>
+  </data>
+  <data name="CascaderCellType_useBinding" xml:space="preserve">
+    <value>데이터 연동</value>
+  </data>
+  <data name="CascaderCellType_value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="CascaderCellType_valueProperty" xml:space="preserve">
+    <value>값 속성</value>
+  </data>
+  <data name="CascaderCellType_valueProperty_Description" xml:space="preserve">
+    <value>라디오버튼을 클릭해야 선택되도록 노드 선택을 더 확실히 하고, 선택된 노드는 다른 선택이 발생할 때까지 그 경로와 결과를 강조표시합니다.</value>
+  </data>
+  <data name="Slider" xml:space="preserve">
+    <value>슬라이더</value>
+  </data>
+  <data name="SliderCellType_EndValue" xml:space="preserve">
+    <value>마지막 값</value>
+  </data>
+  <data name="SliderCellType_formatTooltipStr" xml:space="preserve">
+    <value>선택 값 숫자 표시 방식</value>
+  </data>
+  <data name="SliderCellType_GetSelectedRange" xml:space="preserve">
+    <value>범위 설정 값 가져오기</value>
+  </data>
+  <data name="SliderCellType_max" xml:space="preserve">
+    <value>최대 값</value>
+  </data>
+  <data name="SliderCellType_min" xml:space="preserve">
+    <value>최소 값</value>
+  </data>
+  <data name="SliderCellType_range" xml:space="preserve">
+    <value>범위 설정 허용</value>
+  </data>
+  <data name="SliderCellType_SetMaxValue" xml:space="preserve">
+    <value>최대 값 설정</value>
+  </data>
+  <data name="SliderCellType_SetMinValue" xml:space="preserve">
+    <value>최소 값 설정</value>
+  </data>
+  <data name="SliderCellType_showInput" xml:space="preserve">
+    <value>직접 입력 허용</value>
+  </data>
+  <data name="SliderCellType_showInputControls" xml:space="preserve">
+    <value>직접 입력 및 증감 버튼 표시</value>
+  </data>
+  <data name="SliderCellType_showStops" xml:space="preserve">
+    <value>구간 설정</value>
+  </data>
+  <data name="SliderCellType_showTooltip" xml:space="preserve">
+    <value>선택 값 숫자 표시</value>
+  </data>
+  <data name="SliderCellType_StartValue" xml:space="preserve">
+    <value>시작 값</value>
+  </data>
+  <data name="SliderCellType_step" xml:space="preserve">
+    <value>증감 크기</value>
+  </data>
+  <data name="SliderCellType_vertical" xml:space="preserve">
+    <value>수직</value>
+  </data>
+  <data name="SelectCellType_showStops_Description" xml:space="preserve">
+    <value>증감 크기를 2 이상으로 설정하시면 슬라이더가 선택 구간으로 표시됩니다.</value>
+  </data>
+  <data name="layout" xml:space="preserve">
+    <value>표시 방식</value>
+  </data>
+  <data name="layout_DisplayList" xml:space="preserve">
+    <value>수평|수직</value>
+  </data>
+  <data name="TimePicker" xml:space="preserve">
+    <value>시간 선택기</value>
+  </data>
+  <data name="TimePickerCellType_endPlaceholder_DefaultValue" xml:space="preserve">
+    <value>종료 시간 입력</value>
+  </data>
+  <data name="TimePickerCellType_EndTime" xml:space="preserve">
+    <value>종료 시간</value>
+  </data>
+  <data name="TimePickerCellType_startPlaceholder_DefaultValue" xml:space="preserve">
+    <value>시작 시간 입력</value>
+  </data>
+  <data name="TimePickerCellType_StartTime" xml:space="preserve">
+    <value>시작 시간</value>
+  </data>
+  <data name="TimePickerCellType_mode" xml:space="preserve">
+    <value>시간 선택 방식</value>
+  </data>
+  <data name="TimePickerCellType_mode_DisplayList" xml:space="preserve">
+    <value>설정 시간 선택 모드|시분초 선택 모드</value>
+  </data>
+  <data name="TimePickerCellType_placeholder" xml:space="preserve">
+    <value>입력 안내</value>
+  </data>
+  <data name="TimePickerCellType_prefixIcon" xml:space="preserve">
+    <value>앞쪽 표시 아이콘</value>
+  </data>
+  <data name="TimePickerCellType_clearable" xml:space="preserve">
+    <value>선택 후 지우기 버튼 표시</value>
+  </data>
+  <data name="TimePickerCellType_isRange" xml:space="preserve">
+    <value>시간을 범위로 설정</value>
+  </data>
+  <data name="TimePickerCellType_startPlaceholder" xml:space="preserve">
+    <value>시작 시간 입력 안내</value>
+  </data>
+  <data name="TimePickerCellType_rangeSeparator_DefaultValue" xml:space="preserve">
+    <value>부터</value>
+  </data>
+  <data name="TimePickerCellType_rangeSeparator" xml:space="preserve">
+    <value>범위 구분 표현</value>
+  </data>
+  <data name="TimePickerCellType_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="TimePickerCellType_IsDisabled" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="TimePickerCellType_GetSelectedRange" xml:space="preserve">
+    <value>범위 설정 값 가져오기</value>
+  </data>
+  <data name="TimePickerCellType_EndValue" xml:space="preserve">
+    <value>종료 시간 값</value>
+  </data>
+  <data name="TimePickerCellType_StartValue" xml:space="preserve">
+    <value>시작 시간 값</value>
+  </data>
+  <data name="TimePickerCellType_step" xml:space="preserve">
+    <value>시간 증감 크기</value>
+  </data>
+  <data name="TimePickerCellType_endPlaceholder" xml:space="preserve">
+    <value>종료 시간 입력 안내</value>
+  </data>
+  <data name="TimePickerCellType_editable" xml:space="preserve">
+    <value>선택 가능 시간만 입력 허용</value>
+  </data>
+  <data name="DatePicker" xml:space="preserve">
+    <value>날짜 선택기</value>
+  </data>
+  <data name="DatePickerCellType_type" xml:space="preserve">
+    <value>날짜 표시 유형</value>
+  </data>
+  <data name="DatePickerCellType_placeholder" xml:space="preserve">
+    <value>입력 안내</value>
+  </data>
+  <data name="DatePickerCellType_format" xml:space="preserve">
+    <value>날짜 표시 방식</value>
+  </data>
+  <data name="DatePickerCellType_firstDayOfWeek" xml:space="preserve">
+    <value>한 주의 시작 요일</value>
+  </data>
+  <data name="DatePickerCellType_prefixIcon" xml:space="preserve">
+    <value>앞쪽 표시 아이콘</value>
+  </data>
+  <data name="DatePickerCellType_clearable" xml:space="preserve">
+    <value>선택 후 지우기 버튼 표시</value>
+  </data>
+  <data name="DatePickerCellType_editable" xml:space="preserve">
+    <value>직접 입력 허용</value>
+  </data>
+  <data name="DatePickerCellType_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="DatePickerCellType_firstDayWeek_DisplayList" xml:space="preserve">
+    <value>월요일|화요일|수요알|목요일|금요일|토요일|일요일</value>
+  </data>
+  <data name="DatePickerCellType_format_ValueList" xml:space="preserve">
+    <value>yyyy년|MM월|dd일|yyyy년MM월dd일|yyyy년MM월|MM월dd일|yyyy/MM/dd HH:mm:ss</value>
+  </data>
+  <data name="DatePickerCellType_GetSelectedRange" xml:space="preserve">
+    <value>범위 설정 값 가져오기</value>
+  </data>
+  <data name="DatePickerCellType_rangeSeparator" xml:space="preserve">
+    <value>범위 구분 표현</value>
+  </data>
+  <data name="DatePickerCellType_rangeSeparator_DefaultValue" xml:space="preserve">
+    <value>부터</value>
+  </data>
+  <data name="DatePickerCellType_endPlaceholder" xml:space="preserve">
+    <value>종료 날짜 입력 안내</value>
+  </data>
+  <data name="DatePickerCellType_startPlaceholder" xml:space="preserve">
+    <value>시작 날짜 입력 안내</value>
+  </data>
+  <data name="DatePickerCellType_startPlaceholder_DefaultValue" xml:space="preserve">
+    <value>시작 날짜 입력</value>
+  </data>
+  <data name="DatePickerCellType_endPlaceholder_DefaultValue" xml:space="preserve">
+    <value>종료 날짜 입력</value>
+  </data>
+  <data name="DatePickerCellType_EndValue" xml:space="preserve">
+    <value>종료 값</value>
+  </data>
+  <data name="DatePickerCellType_StartValue" xml:space="preserve">
+    <value>시작 값</value>
+  </data>
+  <data name="DatePickerCellType_type_DisplayList" xml:space="preserve">
+    <value>연도 별|월 별|일 별|주 별|날짜시간 별|월간 범위|일간 범위|날짜 시간 범위</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>파일 업로드</value>
+  </data>
+  <data name="UploadCellType_limit" xml:space="preserve">
+    <value>업로드 허용 최대 파일 수</value>
+  </data>
+  <data name="UploadCellType_sizeLimit" xml:space="preserve">
+    <value>업로드 허용 최대 파일 크기 (단위:MB)</value>
+  </data>
+  <data name="UploadCellType_buttonText" xml:space="preserve">
+    <value>업로드 버튼 표시 텍스트</value>
+  </data>
+  <data name="UploadCellType_buttonText_DefaultValue" xml:space="preserve">
+    <value>업로드하기</value>
+  </data>
+  <data name="UploadCellType_tipText" xml:space="preserve">
+    <value>사용자 업로드 안내 문구</value>
+  </data>
+  <data name="UploadCellType_tipText_DefaultValue" xml:space="preserve">
+    <value>1MB 용량 이하의 jpg/png 파일을 업로드 할 수 있습니다.</value>
+  </data>
+  <data name="UploadCellType_upload" xml:space="preserve">
+    <value>파일 목록 형태로 표시</value>
+  </data>
+  <data name="UploadCellType_pictureList" xml:space="preserve">
+    <value>이미지와 파일 이름 동시 표시</value>
+  </data>
+  <data name="UploadCellType_pictureCard" xml:space="preserve">
+    <value>이미지 미리보기 형태 표시</value>
+  </data>
+  <data name="UploadCellType_OverFileSizeLimitError" xml:space="preserve">
+    <value>업로드하신 파일이 설정한 제한 용량보다 큽니다.</value>
+  </data>
+  <data name="UploadCellType_IsDisabled" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="UploadCellType_listType" xml:space="preserve">
+    <value>업로드 목록 형태</value>
+  </data>
+  <data name="UploadCellType_multiple" xml:space="preserve">
+    <value>여러 파일 동시 업로드 허용</value>
+  </data>
+  <data name="UploadCellType_OverFileCountLimitError" xml:space="preserve">
+    <value>현재 ${length}개의 파일을 추가하려고 시도하셨으나, 이를 모두 처리할 경우 총 ${total} 개가 되므로, 요청하신 업로드를 수행할 수 없습니다.</value>
+  </data>
+  <data name="UploadCellType_FileFormatError" xml:space="preserve">
+    <value>업로드 요청하신 파일의 형식이 올바르지 않습니다.</value>
+  </data>
+  <data name="UploadCellType_File" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="UploadCellType_accept" xml:space="preserve">
+    <value>업로드 허용할 파일 유형</value>
+  </data>
+  <data name="CalendarCellType_ClickCommand" xml:space="preserve">
+    <value>클릭 시 수행 명령 편집</value>
+  </data>
+  <data name="CalendarProjectCommand" xml:space="preserve">
+    <value>달력 셀 클릭 명령</value>
+  </data>
+  <data name="CalendarScheduleCommand" xml:space="preserve">
+    <value>세부 일정 클릭 명령</value>
+  </data>
+  <data name="CalendarCellType_CommandList" xml:space="preserve">
+    <value>값 변경 시 명령 편집</value>
+  </data>
+  <data name="CalendarCellType_Schedul_InitParamValues" xml:space="preserve">
+    <value>값|날짜|텍스트</value>
+  </data>
+  <data name="UploadCellType_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>태그</value>
+  </data>
+  <data name="Tag_ClickCommand" xml:space="preserve">
+    <value>태그 클릭 시 수행 명령 편집</value>
+  </data>
+  <data name="Tag_size" xml:space="preserve">
+    <value>태그 크기</value>
+  </data>
+  <data name="Tag_effect" xml:space="preserve">
+    <value>태그 색상 테마</value>
+  </data>
+  <data name="TagCellType_effect_DisplayList" xml:space="preserve">
+    <value>진한 색상|연한 색상|투명 색상</value>
+  </data>
+  <data name="TagCellType_size_DisplayList" xml:space="preserve">
+    <value>대|중|소</value>
+  </data>
+  <data name="TagCellType_DefaultValue" xml:space="preserve">
+    <value>태그1, 태그2, 태그3</value>
+  </data>
+  <data name="TagCellType_distinct_Description" xml:space="preserve">
+    <value>중복된 태그 입력을 허용하지 않습니다.</value>
+  </data>
+  <data name="Tag_distinct" xml:space="preserve">
+    <value>고유한 태그</value>
+  </data>
+  <data name="Common_ValueChangeCommand" xml:space="preserve">
+    <value>값 변경 시 실행할 명령 편집</value>
+  </data>
+  <data name="Tag_ReadOnly" xml:space="preserve">
+    <value>읽기 전용 - 이후 상태 변경 가능</value>
+  </data>
+  <data name="Tag_ColorList" xml:space="preserve">
+    <value>색상 목록 구성</value>
+  </data>
+  <data name="Tag_separator" xml:space="preserve">
+    <value>결과 표시 시 태그 구분</value>
+  </data>
+  <data name="Tag_space" xml:space="preserve">
+    <value>버튼 위치</value>
+  </data>
+  <data name="Tag_allowAdd" xml:space="preserve">
+    <value>태그 추가 버튼 표시</value>
+  </data>
+  <data name="Tag_addButtonSettings" xml:space="preserve">
+    <value>태그 추가 버튼 설정</value>
+  </data>
+  <data name="Tag_width" xml:space="preserve">
+    <value>가로 크기</value>
+  </data>
+  <data name="Tag_text" xml:space="preserve">
+    <value>표시 구문</value>
+  </data>
+  <data name="TagCellType_addButtonText_DefaultValue" xml:space="preserve">
+    <value>+새 태그 추가</value>
+  </data>
+  <data name="Tag_itemSpace" xml:space="preserve">
+    <value>태그 간 거리</value>
+  </data>
+  <data name="TagCellType_ColorList_Description" xml:space="preserve">
+    <value>태그 생성 시 색상을 지정합니다. 
+
+태그 색상은 여러 개를 추가하실 수 있으며, 태그 생성 시 설정된 색상 목록의 첫 번 째 색상부터 시작해 순환 적용합니다. 예를 들어, 색상 목록에 3개의 항목이 설정되어 있다면, 4번째 태그 생성 시 첫 번 째 색상을 다시 사용합니다.
+
+모든 태그에 동일한 색상을 사용하도록 설정하시려면 색상 목록에 항목을 하나만 만드시면 됩니다.</value>
+  </data>
+  <data name="TagCellType_ClickCommand_InitParamValues" xml:space="preserve">
+    <value>태그 이름</value>
+  </data>
+  <data name="Tag_hit" xml:space="preserve">
+    <value>테두리 선 표시</value>
+  </data>
+  <data name="Tag_disableTransitions" xml:space="preserve">
+    <value>애니메이션 중지 (현재 작동 안함)</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>별점</value>
+  </data>
+  <data name="RateCellType_max" xml:space="preserve">
+    <value>최대 별점</value>
+  </data>
+  <data name="RateCellType_colors" xml:space="preserve">
+    <value>별점 색상</value>
+  </data>
+  <data name="RateCellType_color" xml:space="preserve">
+    <value>색상</value>
+  </data>
+  <data name="RateCellType_disabledVoidColor" xml:space="preserve">
+    <value>읽기 전용 선택 시 색상</value>
+  </data>
+  <data name="RateCellType_voidColor" xml:space="preserve">
+    <value>미선택 별의 색상</value>
+  </data>
+  <data name="RateCellType_allowHalf" xml:space="preserve">
+    <value>반점 짜리 별 허용</value>
+  </data>
+  <data name="RateCellType_colors_Description" xml:space="preserve">
+    <value>최대 3가지 색상을 구성할 수 있습니다. 색상은 각각 낮음 표시 별점 기준 이하, 중간 별점 색상, 높음 표시 별점 기준 이상의 색상을 나타냅니다.</value>
+  </data>
+  <data name="RateCellType_CommandList" xml:space="preserve">
+    <value>별점 클릭 시 명령 편집</value>
+  </data>
+  <data name="RateCellType_defaultSetting" xml:space="preserve">
+    <value>나쁨, 좋지 않음, 보통, 좋음, 훌륭함</value>
+  </data>
+  <data name="RateCellType_Text" xml:space="preserve">
+    <value>문구 표시</value>
+  </data>
+  <data name="RateCellType_texts" xml:space="preserve">
+    <value>표시할 문구 설정</value>
+  </data>
+  <data name="RateCellType_Score" xml:space="preserve">
+    <value>점수 표시</value>
+  </data>
+  <data name="RateCellType_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="RateCellType_None" xml:space="preserve">
+    <value>없음 (기본)</value>
+  </data>
+  <data name="RateCellType_DisplayContentType" xml:space="preserve">
+    <value>추가 내용 표시</value>
+  </data>
+  <data name="RateCellType_lowThreshold" xml:space="preserve">
+    <value>낮음 표시 별점 기준</value>
+  </data>
+  <data name="RateCellType_highThreshold" xml:space="preserve">
+    <value>높음 표시 별점 기준</value>
+  </data>
+  <data name="SliderCellType_showSteps_Desciption" xml:space="preserve">
+    <value>증감 크기를 2이상으로 하시고 사용 시 슬라이더에 구간이 표시됩니다.</value>
+  </data>
+  <data name="SliderCellType_formatTooltipStr_VariableContext" xml:space="preserve">
+    <value>Value:슬라이더의 값</value>
+  </data>
+  <data name="RateCellType_label" xml:space="preserve">
+    <value>표시 내용</value>
+  </data>
+  <data name="PaginationCellType_SetPageSize" xml:space="preserve">
+    <value>한 페이지에 표시할 항목 수 설정</value>
+  </data>
+  <data name="PaginationCellType_prevText" xml:space="preserve">
+    <value>이전 페이지 이동 문구</value>
+  </data>
+  <data name="PaginationCellType_nextText" xml:space="preserve">
+    <value>다음 페이지 이동 문구</value>
+  </data>
+  <data name="PaginationCellType_pageSize" xml:space="preserve">
+    <value>한 페이지에 표시할 항목 수</value>
+  </data>
+  <data name="PaginationCellType_PagingChangeCommands" xml:space="preserve">
+    <value>페이지 변경 시 명령 실행</value>
+  </data>
+  <data name="PaginationCellType_PageSize_Param" xml:space="preserve">
+    <value>표시 항목 수</value>
+  </data>
+  <data name="PaginationCellType_ExecuteCommand" xml:space="preserve">
+    <value>직접 입력한 페이지로 이동</value>
+  </data>
+  <data name="PaginationCellType_SetCurrentPageIndex" xml:space="preserve">
+    <value>설정한 페이지로 이동하기</value>
+  </data>
+  <data name="PaginationCellType_IsDisabled" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="PaginationCellType_pagerCount" xml:space="preserve">
+    <value>하단 페이지 링크 수</value>
+  </data>
+  <data name="PaginationCellType_layoutItem" xml:space="preserve">
+    <value>구성 항목</value>
+  </data>
+  <data name="PaginationCellType_layout" xml:space="preserve">
+    <value>주요 표시 항목 구성</value>
+  </data>
+  <data name="PaginationCellType_ListviewName" xml:space="preserve">
+    <value>리스트뷰 선택</value>
+  </data>
+  <data name="Pagination" xml:space="preserve">
+    <value>게시판 형태 페이지</value>
+  </data>
+  <data name="PaginationCellType_background" xml:space="preserve">
+    <value>배경색 표시</value>
+  </data>
+  <data name="PaginationCellType_small" xml:space="preserve">
+    <value>작게 보이기</value>
+  </data>
+  <data name="PaginationCellType_hideOnSinglePage" xml:space="preserve">
+    <value>1페이지만 있을 경우 숨김</value>
+  </data>
+  <data name="PaginationCellType_Total_Param" xml:space="preserve">
+    <value>총</value>
+  </data>
+  <data name="PaginationCellType_PagingChangeCommands_InitParamValues" xml:space="preserve">
+    <value>현재 페이지|페이지 크기|총</value>
+  </data>
+  <data name="PaginationPreview_Page" xml:space="preserve">
+    <value>페이지</value>
+  </data>
+  <data name="PaginationCellType_pagerCount_Description" xml:space="preserve">
+    <value>5 이상, 21 이하의 홀수 숫자만 입력하실 수 있습니다.</value>
+  </data>
+  <data name="PaginationCellType_pageSizes" xml:space="preserve">
+    <value>한 페이지당 표시 개수 지정</value>
+  </data>
+  <data name="PaginationPreview_PerPagePart" xml:space="preserve">
+    <value>페이지당 100개</value>
+  </data>
+  <data name="PaginationPreview_TotalPart" xml:space="preserve">
+    <value>총 400개</value>
+  </data>
+  <data name="PaginationPreview_GoTo" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="PaginationCellType_value" xml:space="preserve">
+    <value>페이지당 표시 줄 수</value>
+  </data>
+  <data name="PaginationCellType_PageIndex_Param" xml:space="preserve">
+    <value>이동할 페이지</value>
+  </data>
+  <data name="PaginationCellType_layoutItem_DisplayList" xml:space="preserve">
+    <value>페이지당 표시 개수|이전|페이지 링크|다음|바로가기|공백|총 페이지</value>
+  </data>
+	<data name="HideItems_Display" xml:space="preserve">
+    <value>메뉴 항목 숨기기</value>
+  </data>
+	<data name="HideItemsParam_Items" xml:space="preserve">
+    <value>메뉴 아이템</value>
+  </data>
+	<data name="HideItemsParam_ItemsDescription" xml:space="preserve">
+    <value>「메뉴1, 메뉴2, 메뉴3...」 등과 같이 여러 항목 사용 시 쉼표로 구분하여 사용하실 수 있습니다.</value>
+  </data>
+	<data name="GetDisplayText" xml:space="preserve">
+    <value>표시 텍스트 가져오기</value>
+  </data>
+	<data name="DisplayText" xml:space="preserve">
+    <value>텍스트 표시</value>
+  </data>
+</root>

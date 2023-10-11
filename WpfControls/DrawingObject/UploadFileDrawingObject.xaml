@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="ElementUI.WpfControls.DrawingObject.UploadFileDrawingObject"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementUI.WpfControls.DrawingObject"
+             xmlns:control="clr-namespace:ElementUI.WpfControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel>
+            <Border d:Background="{Binding PrimaryColor}" CornerRadius="3" Padding="15,9" Background="{Binding ButtonBackground}" HorizontalAlignment="Left" Visibility="{Binding ReadOnlyVisibility}">
+                <TextBlock d:Text="点击上传" Text="{Binding ButtonText}" Foreground="White"></TextBlock>
+            </Border>
+            <TextBlock FontSize="12" Margin="0,7,0,0" d:Text="只能上传jpg/png文件，且不超过1MB" Text="{Binding TipText}" Foreground="{Binding TipForeground}" Visibility="{Binding ReadOnlyVisibility}"></TextBlock>
+            <ItemsControl Margin="0,5,0,0" ItemsSource="{Binding Items}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid Visibility="{Binding ShowFile}" Margin="4,5,0,0" TextElement.FontSize="14">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <ContentControl Margin="7,3.5" Width="14" Height="14" VerticalAlignment="Center" Content="{Binding documentIcon}"></ContentControl>
+                                <TextBlock Foreground="{Binding TextColor}" VerticalAlignment="Center" Grid.Column="1" Text="{Binding Text}"></TextBlock>
+                                <ContentControl Margin="7,3.5" Width="14" Height="14" VerticalAlignment="Center" Grid.Column="2" Content="{Binding circleCheckIcon}"></ContentControl>
+                            </Grid>
+                            <Border Visibility="{Binding ShowRepeater}" Margin="0,5,0,5" Padding="10" CornerRadius="6" BorderThickness="1" BorderBrush="#c0ccda">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Width="70" Height="70" Stretch="Uniform" Source="/ElementUI;component/Resources/images/Image_512.png"></Image>
+                                    <TextBlock Foreground="{Binding TextColor}" VerticalAlignment="Center" Text="{Binding Text}"></TextBlock>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+    </Grid>
+</UserControl>

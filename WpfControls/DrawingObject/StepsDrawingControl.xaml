@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="ElementUI.WpfControls.StepsDrawingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ElementUI.WpfControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <local:BoolToVisibilityInverseConverter x:Key="BoolToVisibilityInverseConverter"/>
+        <local:BoolToHorizontalAlignmentConverter x:Key="BoolToHorizontalAlignmentConverter"/>
+        <DataTemplate x:Key="NodeItemHor">
+            <StackPanel>
+                <Grid Visibility="{Binding Center, Converter={StaticResource BoolToVisibilityInverseConverter}}">
+                    <Border Height="2" HorizontalAlignment="Stretch" Background="#C0C4CC" Margin="2 0" VerticalAlignment="Center"
+                            Visibility="{Binding BorderVisibility, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                    <Border Background="White" Width="25" HorizontalAlignment="Left" >
+                        <ContentControl Width="20" Height="20" Content="{Binding Icon}"></ContentControl>
+                    </Border>
+                </Grid>
+                <Grid Visibility="{Binding Center, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border Height="2" Visibility="{Binding LeftBorderVisibility, Converter={StaticResource BoolToVisibilityConverter}}"
+                            HorizontalAlignment="Stretch" Background="#C0C4CC" VerticalAlignment="Center" Grid.Column="0"/>
+                
+                    <Border Height="2" Visibility="{Binding BorderVisibility, Converter={StaticResource BoolToVisibilityConverter}}"
+                            HorizontalAlignment="Stretch" Background="#C0C4CC" VerticalAlignment="Center" Grid.Column="2"/>
+                    
+                    <Border Background="White" Width="25" HorizontalAlignment="Left" Grid.Column="1" >
+                        <ContentControl Width="20" Height="20" Content="{Binding Icon}"></ContentControl>
+                    </Border>
+                </Grid>
+                
+                <TextBlock Text="{Binding Title}" FontSize="16" Foreground="{Binding FontColor}" FontWeight="Bold" 
+                           HorizontalAlignment="{Binding Center, Converter={StaticResource BoolToHorizontalAlignmentConverter}}"/>
+                <TextBlock Text="{Binding Description}" TextWrapping="WrapWithOverflow" Foreground="{Binding FontColor}"
+                           HorizontalAlignment="{Binding Center, Converter={StaticResource BoolToHorizontalAlignmentConverter}}"/>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="NodeItemVer">
+            <DockPanel>
+                <Grid >
+                    <Border Width="2" Visibility="{Binding BorderVisibility, Converter={StaticResource BoolToVisibilityConverter}}"
+                            VerticalAlignment="Stretch" Background="#C0C4CC" />
+                    
+                    <Border Background="White" Width="25" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <ContentControl Width="20" Height="20" Content="{Binding Icon}"></ContentControl>
+                    </Border>
+                </Grid>
+                <StackPanel>
+                    <TextBlock Text="{Binding Title}" FontSize="16" Foreground="{Binding FontColor}" FontWeight="Bold" />
+                    <TextBlock Text="{Binding Description}" TextWrapping="WrapWithOverflow" Foreground="{Binding FontColor}"/>
+                </StackPanel>
+            </DockPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="SimpleTemplate">
+            <Grid Background="#F5F7FA" Height="46">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <ContentControl Width="20" Height="20" Content="{Binding Icon}"></ContentControl>
+                    <TextBlock Text="{Binding Title}" FontSize="16" Foreground="{Binding FontColor}" Margin="5 0 0 0" VerticalAlignment="Center" FontWeight="Bold" />
+                </StackPanel>
+                <TextBlock HorizontalAlignment="Right" Text=">" FontSize="25" Foreground="#C0C4CC"
+                           Visibility="{Binding BorderVisibility, Converter={StaticResource BoolToVisibilityConverter}}"
+                           Margin="5 0 0 0" VerticalAlignment="Center" FontWeight="Bold" />
+            </Grid>
+        </DataTemplate>
+        <ItemsPanelTemplate x:Key="NodeItemHorPanel">
+            <UniformGrid Rows="1"/>
+        </ItemsPanelTemplate>
+        <ItemsPanelTemplate x:Key="NodeItemVerPanel">
+            <UniformGrid Columns="1"/>
+        </ItemsPanelTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid Visibility="{Binding Simple, Converter={StaticResource BoolToVisibilityInverseConverter}}">
+            <ItemsControl ItemsSource="{Binding Nodes}" ItemTemplate="{StaticResource NodeItemHor}" ItemsPanel="{StaticResource NodeItemHorPanel}"
+                      Visibility="{Binding Vertical, Converter={StaticResource BoolToVisibilityInverseConverter}}"
+                      ></ItemsControl>
+            <ItemsControl ItemsSource="{Binding Nodes}" ItemTemplate="{StaticResource NodeItemVer}" ItemsPanel="{StaticResource NodeItemVerPanel}"
+                      Visibility="{Binding Vertical, Converter={StaticResource BoolToVisibilityConverter}}"
+                      ></ItemsControl>
+        </Grid>
+
+        <ItemsControl Visibility="{Binding Simple, Converter={StaticResource BoolToVisibilityConverter}}"
+                      VerticalAlignment="Top" ItemTemplate="{StaticResource SimpleTemplate}"
+                      ItemsSource="{Binding Nodes}" ItemsPanel="{StaticResource NodeItemHorPanel}"/>
+        
+    </Grid>
+</UserControl>

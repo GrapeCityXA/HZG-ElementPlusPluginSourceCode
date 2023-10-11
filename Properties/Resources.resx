@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ElementUI_DisplayName" xml:space="preserve">
+    <value>ElementPlus</value>
+  </data>
+  <data name="AvatarCellType_CommandList" xml:space="preserve">
+    <value>Edit Click Command</value>
+  </data>
+  <data name="AvatarCellType_icon" xml:space="preserve">
+    <value>Default Avatar</value>
+  </data>
+  <data name="AvatarCellType_shape" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="AvatarCellType_fit" xml:space="preserve">
+    <value>Fit</value>
+  </data>
+  <data name="AvatarCellType_badge" xml:space="preserve">
+    <value>Badge</value>
+  </data>
+  <data name="AvatarCellType_circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="AvatarCellType_fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="AvatarCellType_contain" xml:space="preserve">
+    <value>Contain</value>
+  </data>
+  <data name="AvatarCellType_cover" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="AvatarCellType_none" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="Breadcrumb_defaultBehavior" xml:space="preserve">
+    <value>DefaultBehavior</value>
+  </data>
+  <data name="Breadcrumb_ClickCommand" xml:space="preserve">
+    <value>Edit Click Command</value>
+  </data>
+  <data name="Breadcrumb_separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+	<data name="CalendarProjectCommand" xml:space="preserve">
+    <value>Calendar Item Command</value>
+  </data>
+  <data name="CalendarScheduleCommand" xml:space="preserve">
+    <value>Item Task command</value>
+  </data>
+  <data name="CalendarCellType_CommandList" xml:space="preserve">
+    <value>Edit ValueChanged Command</value>
+  </data>
+  <data name="CalendarCellType_DBClickCommand" xml:space="preserve">
+    <value>Edit Double Click Command</value>
+  </data>
+  <data name="CalendarCellType_ClickCommand" xml:space="preserve">
+    <value>Edit Click Command</value>
+  </data>
+  <data name="CalendarCellType_bindingOptions" xml:space="preserve">
+    <value>Config Schedule</value>
+  </data>
+  <data name="CalendarCellType_firstDayOfWeek" xml:space="preserve">
+    <value>First Day Of Week</value>
+  </data>
+  <data name="CalendarCellType_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CalendarCellType_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CascaderCellType_useBinding" xml:space="preserve">
+    <value>Use Binding</value>
+  </data>
+  <data name="CascaderCellType_options" xml:space="preserve">
+    <value>Config Items</value>
+  </data>
+  <data name="CascaderCellType_bindingOptions" xml:space="preserve">
+    <value>Config Binding Items</value>
+  </data>
+  <data name="CascaderCellType_expandTrigger" xml:space="preserve">
+    <value>ExpandTrigger</value>
+  </data>
+  <data name="CascaderCellType_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+  <data name="CascaderCellType_multiple" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="CascaderCellType_collapseTags" xml:space="preserve">
+    <value>CollapseTags</value>
+  </data>
+  <data name="CascaderCellType_checkStrictly" xml:space="preserve">
+    <value>CheckStrictly</value>
+  </data>
+  <data name="CascaderCellType_emitPath" xml:space="preserve">
+    <value>EmitPath</value>
+  </data>
+  <data name="CascaderCellType_clearable" xml:space="preserve">
+    <value>Clearable</value>
+  </data>
+  <data name="CascaderCellType_showAllLevels" xml:space="preserve">
+    <value>ShowAllLevels</value>
+  </data>
+  <data name="CascaderCellType_filterable" xml:space="preserve">
+    <value>Filterable</value>
+  </data>
+  <data name="CascaderCellType_separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="CascaderCellType_dataSource" xml:space="preserve">
+    <value>DataSource</value>
+  </data>
+  <data name="CascaderCellType_valueProperty" xml:space="preserve">
+    <value>ValueProperty</value>
+  </data>
+  <data name="CascaderCellType_labelProperty" xml:space="preserve">
+    <value>LabelProperty</value>
+  </data>
+  <data name="CascaderCellType_childrenProperty" xml:space="preserve">
+    <value>ChildrenProperty</value>
+  </data>
+  <data name="CascaderCellType_parentValue" xml:space="preserve">
+    <value>ParentValue</value>
+  </data>
+  <data name="CascaderCellType_GetCheckedNodes" xml:space="preserve">
+    <value>GetCheckedNodes</value>
+  </data>
+  <data name="CascaderCellType_leafOnly" xml:space="preserve">
+    <value>LeafOnly</value>
+  </data>
+  <data name="CascaderCellType_CheckedItems" xml:space="preserve">
+    <value>CheckedItems</value>
+  </data>
+  <data name="CascaderCellType_Click" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="CascaderCellType_value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CascaderCellType_label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="Common_CommandList" xml:space="preserve">
+    <value>Edit Commands</value>
+  </data>
+  <data name="Common_DataValidationLink" xml:space="preserve">
+    <value>Data Validation</value>
+  </data>
+  <data name="Common_UIPermissions" xml:space="preserve">
+    <value>UI Permissions</value>
+  </data>
+  <data name="Common_DefaultValue" xml:space="preserve">
+    <value>DefaultValue</value>
+  </data>
+  <data name="Common_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+	<data name="Common_IsDisabled" xml:space="preserve">
+    <value>Is Disabled</value>
+  </data>
+  <data name="DatePickerCellType_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DatePickerCellType_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+  <data name="DatePickerCellType_rangeSeparator" xml:space="preserve">
+    <value>Range Separator</value>
+  </data>
+  <data name="DatePickerCellType_startPlaceholder" xml:space="preserve">
+    <value>Start Placeholder</value>
+  </data>
+  <data name="DatePickerCellType_endPlaceholder" xml:space="preserve">
+    <value>End Placeholder</value>
+  </data>
+  <data name="DatePickerCellType_format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="DatePickerCellType_prefixIcon" xml:space="preserve">
+    <value>Prefix Icon</value>
+  </data>
+  <data name="DatePickerCellType_firstDayOfWeek" xml:space="preserve">
+    <value>First Day Of Week</value>
+  </data>
+  <data name="DatePickerCellType_ReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="DatePickerCellType_editable" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="DatePickerCellType_clearable" xml:space="preserve">
+    <value>Clearable</value>
+  </data>
+  <data name="DatePickerCellType_GetSelectedRange" xml:space="preserve">
+    <value>Get Selected Range</value>
+  </data>
+  <data name="DatePickerCellType_StartValue" xml:space="preserve">
+    <value>Start Value</value>
+  </data>
+  <data name="DatePickerCellType_EndValue" xml:space="preserve">
+    <value>End Value</value>
+  </data>
+  <data name="Input_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Input_maxlength" xml:space="preserve">
+    <value>Max Length</value>
+  </data>
+  <data name="Input_showWordLimit" xml:space="preserve">
+    <value>Show Word Limit</value>
+  </data>
+  <data name="Input_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+  <data name="Input_ReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="Input_clearable" xml:space="preserve">
+    <value>Clearable</value>
+  </data>
+  <data name="Input_showPassword" xml:space="preserve">
+    <value>Show Password</value>
+  </data>
+  <data name="Input_prefixIcon" xml:space="preserve">
+    <value>Prefix Icon</value>
+  </data>
+  <data name="Input_suffixIcon" xml:space="preserve">
+    <value>Suffix Icon</value>
+  </data>
+  <data name="Input_resize" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="Input_Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="Input_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="InputNumberCellType_min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="InputNumberCellType_max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="InputNumberCellType_step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="InputNumberCellType_stepStrictly" xml:space="preserve">
+    <value>Step Strictly</value>
+  </data>
+  <data name="InputNumberCellType_precision" xml:space="preserve">
+    <value>Precision</value>
+  </data>
+  <data name="InputNumberCellType_IsDisabled" xml:space="preserve">
+    <value>Is Disabled</value>
+  </data>
+  <data name="InputNumberCellType_controls" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="InputNumberCellType_controlsPosition" xml:space="preserve">
+    <value>Controls Position</value>
+  </data>
+  <data name="InputNumberCellType_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+  <data name="InputNumberCellType_SetMinValue" xml:space="preserve">
+    <value>SetMinValue</value>
+  </data>
+  <data name="InputNumberCellType_SetMaxValue" xml:space="preserve">
+    <value>SetMaxValue</value>
+  </data>
+  <data name="InputNumberCellType_SetStep" xml:space="preserve">
+    <value>SetStep</value>
+  </data>
+  <data name="InputNumberCellType_Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="NavMenuCellType_SelectCommand" xml:space="preserve">
+    <value>Edit ValueChanged Command</value>
+  </data>
+  <data name="NavMenuCellType_useBinding" xml:space="preserve">
+    <value>Use Binding</value>
+  </data>
+  <data name="NavMenuCellType_options" xml:space="preserve">
+    <value>Edit Menu Items</value>
+  </data>
+  <data name="NavMenuCellType_bindingOptions" xml:space="preserve">
+    <value>Edit Menu Binding Items</value>
+  </data>
+  <data name="NavMenuCellType_mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="NavMenuCellType_theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="NavMenuCellType_backgroundColor" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="NavMenuCellType_textColor" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="NavMenuCellType_activeTextColor" xml:space="preserve">
+    <value>Active Text Color</value>
+  </data>
+  <data name="NavMenuCellType_uniqueOpened" xml:space="preserve">
+    <value>Unique Opened</value>
+  </data>  
+	<data name="NavMenuCellType_DefaultExpansion" xml:space="preserve">
+    <value>Default Expansion</value>
+  </data>	
+	<data name="NavMenuCellType_DefaultExpansion_DisplayName" xml:space="preserve">
+    <value>expand|collapse</value>
+  </data>
+  <data name="NavMenuCellType_menuTrigger" xml:space="preserve">
+    <value>Menu Trigger</value>
+  </data>
+  <data name="NavMenuCellType_collapseTransition" xml:space="preserve">
+    <value>Collapse Transition</value>
+  </data>
+  <data name="NavMenuCellType_collapse" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="NavMenuCellType_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="NavMenuCellType_PathArray" xml:space="preserve">
+    <value>Path Array</value>
+  </data>
+  <data name="NavMenuCellType_icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="NavMenuCellType_notification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="NavMenuCellType_expend" xml:space="preserve">
+    <value>Expend</value>
+  </data>
+  <data name="PaginationCellType_ListviewName" xml:space="preserve">
+    <value>Select Listview</value>
+  </data>
+  <data name="PaginationCellType_pageSize" xml:space="preserve">
+    <value>Page Size</value>
+  </data>
+  <data name="PaginationCellType_pagerCount" xml:space="preserve">
+    <value>Pager Count</value>
+  </data>
+  <data name="PaginationCellType_layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="PaginationCellType_pageSizes" xml:space="preserve">
+    <value>Page Sizes</value>
+  </data>
+  <data name="PaginationCellType_prevText" xml:space="preserve">
+    <value>Prev Text</value>
+  </data>
+  <data name="PaginationCellType_nextText" xml:space="preserve">
+    <value>Next Text</value>
+  </data>
+  <data name="PaginationCellType_IsDisabled" xml:space="preserve">
+    <value>Is Disabled</value>
+  </data>
+  <data name="PaginationCellType_small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="PaginationCellType_background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="PaginationCellType_hideOnSinglePage" xml:space="preserve">
+    <value>Hide On Single Page</value>
+  </data>
+  <data name="PaginationCellType_layoutItem" xml:space="preserve">
+    <value>Layout Item</value>
+  </data>
+  <data name="PaginationCellType_value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ProgressCellType_type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ProgressCellType_strokeWidth" xml:space="preserve">
+    <value>Stroke Width</value>
+  </data>
+  <data name="ProgressCellType_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ProgressCellType_color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ProgressCellType_showText" xml:space="preserve">
+    <value>Show Text</value>
+  </data>
+  <data name="ProgressCellType_textInside" xml:space="preserve">
+    <value>Text Inside</value>
+  </data>
+  <data name="ProgressCellType_textFormula" xml:space="preserve">
+    <value>Text Formula</value>
+  </data>
+  <data name="ProgressCellType_line" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="ProgressCellType_circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="ProgressCellType_none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ProgressCellType_success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ProgressCellType_exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="ProgressCellType_warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="RateCellType_CommandList" xml:space="preserve">
+    <value>Edit Commands</value>
+  </data>
+  <data name="RateCellType_max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="RateCellType_DisplayContentType" xml:space="preserve">
+    <value>Display Content Type</value>
+  </data>
+  <data name="RateCellType_texts" xml:space="preserve">
+    <value>Texts</value>
+  </data>
+  <data name="RateCellType_lowThreshold" xml:space="preserve">
+    <value>Low Threshold</value>
+  </data>
+  <data name="RateCellType_highThreshold" xml:space="preserve">
+    <value>High Threshold</value>
+  </data>
+  <data name="RateCellType_voidColor" xml:space="preserve">
+    <value>Void Color</value>
+  </data>
+  <data name="RateCellType_disabledVoidColor" xml:space="preserve">
+    <value>ReadOnly Void Color</value>
+  </data>
+  <data name="RateCellType_colors" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="RateCellType_colors_Description" xml:space="preserve">
+    <value>The maximum configuration is three colors, representing the color at low score, the color at medium score, and the color at high score</value>
+  </data>
+  <data name="RateCellType_ReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="RateCellType_allowHalf" xml:space="preserve">
+    <value>Allow Half</value>
+  </data>
+  <data name="RateCellType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="RateCellType_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="RateCellType_Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="RateCellType_label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="RateCellType_color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="SelectCellType_useBinding" xml:space="preserve">
+    <value>Use Binding</value>
+  </data>
+  <data name="SelectCellType_options" xml:space="preserve">
+    <value>Config Items</value>
+  </data>
+  <data name="SelectCellType_bindingOptions" xml:space="preserve">
+    <value>Config Binding Items</value>
+  </data>
+  <data name="SelectCellType_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+  <data name="SelectCellType_multiple" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="SelectCellType_collapseTags" xml:space="preserve">
+    <value>Collapse Tags</value>
+  </data>
+  <data name="SelectCellType_IsDisabled" xml:space="preserve">
+    <value>Is Disabled</value>
+  </data>
+  <data name="SelectCellType_clearable" xml:space="preserve">
+    <value>Clearable</value>
+  </data>
+  <data name="SelectCellType_filterable" xml:space="preserve">
+    <value>Filterable</value>
+  </data>
+  <data name="SelectCellType_filterInServer" xml:space="preserve">
+    <value>Filter In Server</value>
+  </data>
+  <data name="SelectCellType_filterInServerOptions" xml:space="preserve">
+    <value>Filter In Server Options</value>
+  </data>
+  <data name="SelectCellType_allowCreate" xml:space="preserve">
+    <value>Allow Create</value>
+  </data>
+  <data name="SelectCellType_reserveKeyword" xml:space="preserve">
+    <value>Reserve Keyword</value>
+  </data>
+  <data name="SelectCellType_multipleLimit" xml:space="preserve">
+    <value>Multiple Limit</value>
+  </data>
+  <data name="SelectCellType_noMatchText" xml:space="preserve">
+    <value>No Match Text</value>
+  </data>
+  <data name="SelectCellType_noDataText" xml:space="preserve">
+    <value>No Data Text</value>
+  </data>
+  <data name="SelectCellType_dataSource" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="SelectCellType_valueProperty" xml:space="preserve">
+    <value>Value Property</value>
+  </data>
+  <data name="SelectCellType_labelProperty" xml:space="preserve">
+    <value>Label Property</value>
+  </data>
+  <data name="SelectCellType_Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="SelectCellType_defaultMaxOptionsCount" xml:space="preserve">
+    <value>Default Max Options Count</value>
+  </data>
+  <data name="SelectCellType_maxFilterResultCount" xml:space="preserve">
+    <value>Max Filter Result Count</value>
+  </data>
+  <data name="SelectCellType_matchMethod" xml:space="preserve">
+    <value>Match Method</value>
+  </data>
+  <data name="SelectCellType_loadingText" xml:space="preserve">
+    <value>Loading Text</value>
+  </data>
+  <data name="SelectCellType_label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="SliderCellType_min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="SliderCellType_max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="SliderCellType_step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="SliderCellType_showTooltip" xml:space="preserve">
+    <value>Show Tooltip</value>
+  </data>
+  <data name="SliderCellType_formatTooltipStr" xml:space="preserve">
+    <value>Customized Tooltip</value>
+  </data>
+  <data name="SliderCellType_showInput" xml:space="preserve">
+    <value>Show Input</value>
+  </data>
+  <data name="SliderCellType_showInputControls" xml:space="preserve">
+    <value>Show Input Controls</value>
+  </data>
+  <data name="SliderCellType_showStops" xml:space="preserve">
+    <value>Show Stops</value>
+  </data>
+  <data name="SliderCellType_range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="SliderCellType_vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="SliderCellType_GetSelectedRange" xml:space="preserve">
+    <value>GetSelectedRange</value>
+  </data>
+  <data name="SliderCellType_SetMinValue" xml:space="preserve">
+    <value>SetMinValue</value>
+  </data>
+  <data name="SliderCellType_SetMaxValue" xml:space="preserve">
+    <value>SetMaxValue</value>
+  </data>
+  <data name="SliderCellType_StartValue" xml:space="preserve">
+    <value>Start Value</value>
+  </data>
+  <data name="SliderCellType_EndValue" xml:space="preserve">
+    <value>End Value</value>
+  </data>
+  <data name="StepsCellType_CommandList" xml:space="preserve">
+    <value>Edit Commands</value>
+  </data>
+  <data name="StepsCellType_useBinding" xml:space="preserve">
+    <value>Use Binding</value>
+  </data>
+  <data name="StepsCellType_options" xml:space="preserve">
+    <value>Config Step Items</value>
+  </data>
+  <data name="StepsCellType_bindingOptions" xml:space="preserve">
+    <value>Config Step Binding Items</value>
+  </data>
+  <data name="StepsCellType_processStatus" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="StepsCellType_finishStatus" xml:space="preserve">
+    <value>Finish Status</value>
+  </data>
+  <data name="StepsCellType_vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="StepsCellType_alignCenter" xml:space="preserve">
+    <value>Align Center</value>
+  </data>
+  <data name="StepsCellType_simple" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="StepsCellType_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="StepsCellType_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="StepsCellType_icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="StepsCellType_wait" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="StepsCellType_process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="StepsCellType_finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="StepsCellType_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="StepsCellType_UpdateProcessState" xml:space="preserve">
+    <value>Update Process State</value>
+  </data>
+  <data name="StepsCellType_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="StepsCellType_success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Tag_ClickCommand" xml:space="preserve">
+    <value>Edit Click Command</value>
+  </data>
+  <data name="Tag_ColorList" xml:space="preserve">
+    <value>Config Color List</value>
+  </data>
+  <data name="Tag_size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Tag_effect" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="Tag_itemSpace" xml:space="preserve">
+    <value>Item Space</value>
+  </data>
+  <data name="Tag_separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Tag_ReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="Tag_distinct" xml:space="preserve">
+    <value>Distinct</value>
+  </data>
+  <data name="Tag_disableTransitions" xml:space="preserve">
+    <value>Disable Transitions</value>
+  </data>
+  <data name="Tag_hit" xml:space="preserve">
+    <value>Hit</value>
+  </data>
+  <data name="Tag_allowAdd" xml:space="preserve">
+    <value>Allow Add</value>
+  </data>
+  <data name="Tag_addButtonSettings" xml:space="preserve">
+    <value>Config Add Button Settings</value>
+  </data>
+  <data name="Tag_width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Tag_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Tag_space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="TimelineCellType_useBinding" xml:space="preserve">
+    <value>Use Binding</value>
+  </data>
+  <data name="TimelineCellType_options" xml:space="preserve">
+    <value>Config Timeline Items</value>
+  </data>
+  <data name="TimelineCellType_bindingOptions" xml:space="preserve">
+    <value>Config Timeline Binding Items</value>
+  </data>
+  <data name="TimelineCellType_Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="TimelineCellType_Sort_items" xml:space="preserve">
+    <value>Default|Asc by timestamp|Desc by timestamp</value>
+  </data>
+  <data name="TimelineCellType_hideTimestamp" xml:space="preserve">
+    <value>Hide Timestamp</value>
+  </data>
+  <data name="TimelineCellType_placement" xml:space="preserve">
+    <value>Placement</value>
+  </data>
+  <data name="TimelineCellType_format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="TimelineCellType_NodeSize" xml:space="preserve">
+    <value>NodeSize</value>
+  </data>
+  <data name="TimelineCellType_top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="TimelineCellType_content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="TimelineCellType_timestamp" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="TimelineCellType_icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="TimelineCellType_color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="TimePickerCellType_mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="TimePickerCellType_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+  </data>
+  <data name="TimePickerCellType_prefixIcon" xml:space="preserve">
+    <value>Prefix Icon</value>
+  </data>
+  <data name="TimePickerCellType_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="TimePickerCellType_EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="TimePickerCellType_step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="TimePickerCellType_isRange" xml:space="preserve">
+    <value>Is Range</value>
+  </data>
+  <data name="TimePickerCellType_rangeSeparator" xml:space="preserve">
+    <value>Range Separator</value>
+  </data>
+  <data name="TimePickerCellType_startPlaceholder" xml:space="preserve">
+    <value>Start Placeholder</value>
+  </data>
+  <data name="TimePickerCellType_endPlaceholder" xml:space="preserve">
+    <value>End Placeholder</value>
+  </data>
+  <data name="TimePickerCellType_ReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="TimePickerCellType_IsDisabled" xml:space="preserve">
+    <value>Is Disabled</value>
+  </data>
+  <data name="TimePickerCellType_editable" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="TimePickerCellType_clearable" xml:space="preserve">
+    <value>Clearable</value>
+  </data>
+  <data name="TimePickerCellType_GetSelectedRange" xml:space="preserve">
+    <value>GetSelectedRange</value>
+  </data>
+  <data name="TimePickerCellType_StartValue" xml:space="preserve">
+    <value>Start Value</value>
+  </data>
+  <data name="TimePickerCellType_EndValue" xml:space="preserve">
+    <value>End Value</value>
+  </data>
+  <data name="TransferCellTyle_useBinding" xml:space="preserve">
+    <value>Use Binding</value>
+  </data>
+  <data name="TransferCellTyle_options" xml:space="preserve">
+    <value>Config Items</value>
+  </data>
+  <data name="TransferCellTyle_bindingOptions" xml:space="preserve">
+    <value>Config Binding Items</value>
+  </data>
+  <data name="TransferCellTyle_leftTitle" xml:space="preserve">
+    <value>Left Title</value>
+  </data>
+  <data name="TransferCellTyle_rightTitle" xml:space="preserve">
+    <value>Right Title</value>
+  </data>
+  <data name="TransferCellTyle_filterable" xml:space="preserve">
+    <value>Filterable</value>
+  </data>
+  <data name="TransferCellTyle_filterPlaceholder" xml:space="preserve">
+    <value>Filter Placeholder</value>
+  </data>
+  <data name="TransferCellTyle_targetOrder" xml:space="preserve">
+    <value>Target Order</value>
+  </data>
+  <data name="TransferCellTyle_original" xml:space="preserve">
+    <value>Keep same order with datasource</value>
+  </data>
+  <data name="TransferCellTyle_push" xml:space="preserve">
+    <value>Insert new items to last</value>
+  </data>
+  <data name="TransferCellTyle_unshift" xml:space="preserve">
+    <value>Insert new items to first</value>
+  </data>
+  <data name="TransferCellTyle_label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="TransferCellTyle_disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="UploadCellType_limit" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="UploadCellType_accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="UploadCellType_sizeLimit" xml:space="preserve">
+    <value>Size Limit (Unit:MB)</value>
+  </data>
+  <data name="UploadCellType_listType" xml:space="preserve">
+    <value>List Type</value>
+  </data>
+  <data name="UploadCellType_buttonText" xml:space="preserve">
+    <value>Button Text</value>
+  </data>
+  <data name="UploadCellType_tipText" xml:space="preserve">
+    <value>Tip Text</value>
+  </data>
+  <data name="UploadCellType_IsDisabled" xml:space="preserve">
+    <value>Is Disabled</value>
+  </data>  
+  <data name="UploadCellType_ReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="UploadCellType_multiple" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="UploadCellType_upload" xml:space="preserve">
+    <value>File List</value>
+  </data>
+  <data name="UploadCellType_pictureCard" xml:space="preserve">
+    <value>Picture Wall</value>
+  </data>
+  <data name="UploadCellType_pictureList" xml:space="preserve">
+    <value>Picture And Text</value>
+  </data>
+  <data name="Notification_ShowNotification" xml:space="preserve">
+    <value>Show Notification</value>
+  </data>
+  <data name="Notification_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Notification_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Notification_Type" xml:space="preserve">
+    <value>Theme Style</value>
+  </data>
+  <data name="Notification_Duration" xml:space="preserve">
+    <value>Duration(Unit: milliseconds)</value>
+  </data>
+  <data name="Notification_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Notification_Offset" xml:space="preserve">
+    <value>Offset(Unit: pixel)</value>
+  </data>
+  <data name="Notification_Command" xml:space="preserve">
+    <value>Edit Click Notification Command</value>
+  </data>
+  <data name="Notification_ShowClose" xml:space="preserve">
+    <value>Show Close</value>
+  </data>
+  <data name="ShowMessage_ShowMessage" xml:space="preserve">
+    <value>Show Message</value>
+  </data>
+  <data name="ShowMessage_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ShowMessage_Type" xml:space="preserve">
+    <value>Theme Style</value>
+  </data>
+  <data name="ShowMessage_Duration" xml:space="preserve">
+    <value>Duration(Unit: milliseconds)</value>
+  </data>
+  <data name="ShowMessage_Offset" xml:space="preserve">
+    <value>Offset(Unit: pixel)</value>
+  </data>
+  <data name="ShowMessage_ShowClose" xml:space="preserve">
+    <value>Show Close</value>
+  </data>
+  <data name="ShowMessage_Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="ShowMessageBox_ShowMessageBox" xml:space="preserve">
+    <value>Show Message Box</value>
+  </data>
+  <data name="ShowMessageBox_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ShowMessageBox_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ShowMessageBox_Type" xml:space="preserve">
+    <value>Theme Style</value>
+  </data>
+  <data name="ShowMessageBox_ShowInput" xml:space="preserve">
+    <value>Show Input</value>
+  </data>
+  <data name="ShowMessageBox_InputPlaceholder" xml:space="preserve">
+    <value>Input Placeholder</value>
+  </data>
+  <data name="ShowMessageBox_InputType" xml:space="preserve">
+    <value>Input Type</value>
+  </data>
+  <data name="ShowMessageBox_Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="ShowMessageBox_ShowConfirmButton" xml:space="preserve">
+    <value>Show Confirm Button</value>
+  </data>
+  <data name="ShowMessageBox_ConfirmButtonText" xml:space="preserve">
+    <value>Confirm Button Text</value>
+  </data>
+  <data name="ShowMessageBox_ShowCancelButton" xml:space="preserve">
+    <value>Show Cancel Button</value>
+  </data>
+  <data name="ShowMessageBox_CancelButtonText" xml:space="preserve">
+    <value>Cancel Button Text</value>
+  </data>
+  <data name="ShowMessageBox_ShowClose" xml:space="preserve">
+    <value>Show Close</value>
+  </data>
+  <data name="ShowMessageBox_CloseOnClickModal" xml:space="preserve">
+    <value>Close On Click Modal</value>
+  </data>
+  <data name="ShowMessageBox_CloseOnPressEscape" xml:space="preserve">
+    <value>Close On Press Escape</value>
+  </data>
+  <data name="ShowMessageBox_RoundButton" xml:space="preserve">
+    <value>Round Button</value>
+  </data>
+  <data name="ShowMessageBox_DistinguishCancelAndClose" xml:space="preserve">
+    <value>Distinguish Cancel And Close</value>
+  </data>
+  <data name="ShowMessageBox_DialogResult" xml:space="preserve">
+    <value>Dialog Result</value>
+  </data>
+  <data name="ShowMessageBox_DialogResultDescription" xml:space="preserve">
+    <value>Click OK to return the result as confirm, click Cancel to return the result as cancel, click Close button to return the result as close</value>
+  </data>
+  <data name="ShowMessageBox_InputBoxResult" xml:space="preserve">
+    <value>Input Box Result</value>
+  </data>
+  <data name="ShowMessageBox_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ShowMessageBox_textarea" xml:space="preserve">
+    <value>Multline Text</value>
+  </data>
+  <data name="Avatar" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="Breadcrumb" xml:space="preserve">
+    <value>Breadcrumb</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Cascader" xml:space="preserve">
+    <value>Cascader</value>
+  </data>
+  <data name="DatePicker" xml:space="preserve">
+    <value>DatePicker</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="InputNumber" xml:space="preserve">
+    <value>InputNumber</value>
+  </data>
+  <data name="NavMenu" xml:space="preserve">
+    <value>NavMenu</value>
+  </data>
+  <data name="Pagination" xml:space="preserve">
+    <value>Pagination</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Selector" xml:space="preserve">
+    <value>Selector</value>
+  </data>
+  <data name="Slider" xml:space="preserve">
+    <value>Slider</value>
+  </data>
+  <data name="Steps" xml:space="preserve">
+    <value>Steps</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Timeline</value>
+  </data>
+  <data name="TimePicker" xml:space="preserve">
+    <value>TimePicker</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="ShowMessage" xml:space="preserve">
+    <value>ShowMessage</value>
+  </data>
+  <data name="ShowMessageBox" xml:space="preserve">
+    <value>ShowMessageBox</value>
+  </data>
+  <data name="AvatarCellType_showSystemAvatar" xml:space="preserve">
+    <value>Show System Avatar</value>
+  </data>
+  <data name="AvatarCellType_showSystemAvatar_Description" xml:space="preserve">
+    <value>When check 'Show System Avatar' option, AvatarCellType will use cell value as a system user name and try to get avator image of specific user.
+You can use UserInfoView or %CurrentUser% keyword to get user name.</value>
+  </data>
+  <data name="AvatarCellType_square" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="AvatarCellType_scaleDown" xml:space="preserve">
+    <value>Scale Down</value>
+  </data>
+  <data name="Breadcrumb_defaultBehavior_Description" xml:space="preserve">
+    <value>Default behavior is navigate the page with same name of breadcrumb part.
+Uncheck this option can customize the click behavior by command.</value>
+  </data>
+  <data name="Breadcrumb_ClickCommand_InitParamValues" xml:space="preserve">
+    <value>PageName</value>
+  </data>
+  <data name="CalendarCellType_DBClickCommand_InitParamValues" xml:space="preserve">
+    <value>Date</value>
+  </data>  
+  <data name="CalendarCellType_Schedul_InitParamValues" xml:space="preserve">
+    <value>Value|Date|Text</value>
+  </data>
+  <data name="CalendarCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:Value|date:Date|text:Text</value>
+  </data>
+  <data name="CascaderCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:Value|label:Label|parentValue:ParentValue</value>
+  </data>
+  <data name="CascaderCellType_options_DefaultNodeName" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="CascaderCellType_placeholder_DefaultValue" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Category_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="CascaderCellType_checkStrictly_Description" xml:space="preserve">
+    <value>When this option is checked, the parent-child node association is canceled and any level option can be selected.</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByObjTree" xml:space="preserve">
+    <value>SetDataSourceByObjTree</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByObjTree_Description" xml:space="preserve">
+    <value>Using a dynamic JSON object tree as a data source for cell, an example of JSON format is as follows
+[
+    {
+        "value": 1,
+        "label": "Department1",
+        "children": [
+            {
+                "value": 2,
+                "label": "Sub-department1"
+            },
+            {
+                "value": 3,
+                "label": "Sub-department2",
+                "children": [
+                    {
+                       "value": 4,
+                       "label": "Sub-department2-1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "value": 5,
+        "label": "Department2"
+    },
+    {
+        "value": 6,
+        "label": "Department3"
+    }
+]
+The above data assumes that the 'value attribute' is value, the 'label attribute name' is label, and the 'children attribute name' is 'children'
+Typically, a JSON data source can be obtained from a web service via an HTTP request command, or from a server-side command</value>
+  </data>
+  <data name="CascaderCellType_valueProperty_Description" xml:space="preserve">
+    <value>When using different value property names at multiple levels, you can use the | separation, e.g. 'provinceId|cityId'</value>
+  </data>
+  <data name="CascaderCellType_labelProperty_Description" xml:space="preserve">
+    <value>If you do not set a label property name, the value property is considered equal, 
+and when using different label properties at multiple levels, you can use the | Separation, e.g. 'provinceName|cityName'</value>
+  </data>
+  <data name="CascaderCellType_childrenProperty_Description" xml:space="preserve">
+    <value>If multiple children-attributes are different for example the children-attribute of a province is a city, you can use the "|" Separation, e.g. 'provinces|cities|streets'</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByIdPidTable" xml:space="preserve">
+    <value>SetDataSourceByIdPidTable</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByIdPidTable_Description" xml:space="preserve">
+    <value>Using a table JSON object tree as a data source for cells, the JSON format example is as follows
+[
+    {"value": 1, "label": "Department1", "parentValue": null},
+    {"value": 2, "label": "Department1-1", "parentValue": 1},
+    {"value": 3, "label": "Department1-2", "parentValue": 1},
+    {"value": 4, "label": "Department1-2-1", "parentValue": 3},
+    {"value": 5, "label": "Department2", "parentValue": null},
+    {"value": 6, "label": "Department3", "parentValue": null}
+]
+The above data assumes that the 'value attribute' is value, the 'label attribute name' is label, and the 'parent value attribute name' is 'parentValue'
+The table format is a common multi-level data preservation format in databases</value>
+  </data>
+  <data name="CascaderCellType_SetDataSourceByIdPidTable_labelProperty_Description" xml:space="preserve">
+    <value>If you do not set the label property name, the value property is considered equal</value>
+  </data>
+  <data name="CascaderCellType_Hover" xml:space="preserve">
+    <value>Hover</value>
+  </data>
+  <data name="DatePickerCellType_type_DisplayList" xml:space="preserve">
+    <value>Year|Month|Date|Week|Datetime|Month Range|Date Range|Date Time Range</value>
+  </data>
+  <data name="DatePickerCellType_rangeSeparator_DefaultValue" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="DatePickerCellType_startPlaceholder_DefaultValue" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="DatePickerCellType_endPlaceholder_DefaultValue" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="DatePickerCellType_format_ValueList" xml:space="preserve">
+    <value>yyyy|yyyy/MM|MM/DD/yyyy HH:mm:ss</value>
+  </data>
+  <data name="InputCellType_type_DisplayList" xml:space="preserve">
+    <value>Text|TextArea|Password</value>
+  </data>
+  <data name="InputCellType_resize_Description" xml:space="preserve">
+    <value>Works with row/column's auto height</value>
+  </data>
+  <data name="InputCellType_resize_DisplayList" xml:space="preserve">
+    <value>None|Both|Horizontal|Vertical</value>
+  </data>
+  <data name="InputCellType_Focus_Description" xml:space="preserve">
+    <value>Focus the input box</value>
+  </data>
+  <data name="InputCellType_Select_Description" xml:space="preserve">
+    <value>Focus the input box then select all text</value>
+  </data>
+  <data name="InputNumberCellType_Focus_Description" xml:space="preserve">
+    <value>Focus the input number box</value>
+  </data>
+  <data name="NavMenuCellType_SelectCommand_InitParamValues" xml:space="preserve">
+    <value>Value|Label|ParentId</value>
+  </data>
+  <data name="NavMenuCellType_options_DefaultNodeName" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="NavMenuCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:Value|label:Label|parentValue:ParentValue|icon:Icon</value>
+  </data>
+  <data name="NavMenuCellType_mode_DisplayList" xml:space="preserve">
+    <value>Vertical|Horizontal</value>
+  </data>
+  <data name="NavMenuCellType_theme_DisplayList" xml:space="preserve">
+    <value>Light|Dark|Custom</value>
+  </data>
+  <data name="NavMenuCellType_menuTrigger_DisplayList" xml:space="preserve">
+    <value>Hover|Click</value>
+  </data>
+  <data name="NavMenuCellType_GetSelectPath" xml:space="preserve">
+    <value>GetSelectPath</value>
+  </data>
+  <data name="NavMenuCellType_GetSelectPath_Description" xml:space="preserve">
+    <value>Select path is a array, 
+Can use formula =TEXTJOIN("/",1,valuePath) convert array to string, or use loop command access every path part.</value>
+  </data>
+  <data name="NavMenuCellType_GetSelectPath_DisplayList" xml:space="preserve">
+    <value>ValuePath|LabelPath</value>
+  </data>
+  <data name="PaginationCellType_pagerCount_Description" xml:space="preserve">
+    <value>Odd number greater than or equal to 5 and less than or equal to 21</value>
+  </data>
+  <data name="PaginationCellType_layoutItem_DisplayList" xml:space="preserve">
+    <value>Sizes|Prev|Pager|Next|Jumper|-&gt;|Total</value>
+  </data>
+  <data name="ProgressCellType_textFormula_Description" xml:space="preserve">
+    <value>Customize display text by formula, e.g. ="Totally used "&amp;A1&amp;"G", keep this setting empty will display as percentage like 50%</value>
+  </data>
+  <data name="PaginationCellType_dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="RateCellType_defaultSetting" xml:space="preserve">
+    <value>oops,disappointed,normal,good,great</value>
+  </data>
+  <data name="SelectCellType_defaultSetting" xml:space="preserve">
+    <value>Option1,Option2,Option3,Option4,Option5</value>
+  </data>
+  <data name="SelectCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:Value|label:Label</value>
+  </data>
+  <data name="SelectCellType_placeholder_DefaultValue" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="SelectCellType_reserveKeyword_Description" xml:space="preserve">
+    <value>When multiple select and searchable, whether to retain the current search keyword after selecting an option</value>
+  </data>
+  <data name="NoLimit" xml:space="preserve">
+    <value>Not Limit</value>
+  </data>
+  <data name="SelectCellType_noMatchText_DefaultValue" xml:space="preserve">
+    <value>No Match</value>
+  </data>
+  <data name="SelectCellType_noDataText_DefaultValue" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByStringArray" xml:space="preserve">
+    <value>SetDataSourceByStringArray</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByStringArray_Description" xml:space="preserve">
+    <value>Using a dynamic JSON string array as the data source for cells, json format example is as follows
+[
+    "Banana",
+    "Apple",
+    "Pear"
+]
+Usually, the data source can be obtained from a web service through an HTTP request command, or it can be obtained through a server-side command</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByObjArray" xml:space="preserve">
+    <value>SetDataSourceByObjArray</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByObjArray_Description" xml:space="preserve">
+    <value>Using a dynamic JSON object as a data source for cells, an example of JSON format is as follows
+[
+    {"value": 1, "label": "Banana"},
+    {"value": 2, "label": "Apple"},
+    {"value": 3, "label": "Pear"}
+]
+The above data assumes that the 'value attribute' is value and the 'label attribute name' is label
+Typically, a JSON data source can be obtained from a web service via an HTTP request command, or from a server-side command</value>
+  </data>
+  <data name="SelectCellType_SetDataSourceByObjArray_labelProperty_Description" xml:space="preserve">
+    <value>If you do not set the label property name, the value property is considered equal</value>
+  </data>
+  <data name="SelectCellType_Focus_Description" xml:space="preserve">
+    <value>Focus the selector input box</value>
+  </data>
+  <data name="SelectCellType_matchMethod_DisplayList" xml:space="preserve">
+    <value>Contains|Start With</value>
+  </data>
+  <data name="SelectCellType_loadingText_DefaultValue" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="SliderCellType_showSteps_Desciption" xml:space="preserve">
+    <value>Usually used in conjunction with step setting</value>
+  </data>
+  <data name="StepsCellType_step1" xml:space="preserve">
+    <value>Step1</value>
+  </data>
+  <data name="StepsCellType_step2" xml:space="preserve">
+    <value>Step2</value>
+  </data>
+  <data name="StepsCellType_step3" xml:space="preserve">
+    <value>Step3</value>
+  </data>
+  <data name="StepsCellType_step1_Description" xml:space="preserve">
+    <value>The description of step1</value>
+  </data>
+  <data name="StepsCellType_step2_Description" xml:space="preserve">
+    <value>The description of step2</value>
+  </data>
+  <data name="StepsCellType_step3_Description" xml:space="preserve">
+    <value>The description of step3</value>
+  </data>
+  <data name="StepsCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>value:Value|title:Title|description:Description|icon:Icon</value>
+  </data>
+  <data name="TagCellType_ClickCommand_InitParamValues" xml:space="preserve">
+    <value>TagName</value>
+  </data>
+  <data name="TagCellType_ColorList_Description" xml:space="preserve">
+    <value>The color of the tag cycles from the first color in the color list.
+For example, the color list has 3 items, the first three tags will use the first three colors, the fourth will use the first color, and so on.
+If you want all tags to be the same color, you can keep one item in the color list</value>
+  </data>
+  <data name="TagCellType_size_DisplayList" xml:space="preserve">
+    <value>Big|Medium|Small</value>
+  </data>
+  <data name="TagCellType_effect_DisplayList" xml:space="preserve">
+    <value>Dark|Light|Plain</value>
+  </data>
+  <data name="TagCellType_distinct_Description" xml:space="preserve">
+    <value>If the label text is duplicated, only the first item is displayed</value>
+  </data>
+  <data name="TagCellType_addButtonText_DefaultValue" xml:space="preserve">
+    <value>+ New Tag</value>
+  </data>
+  <data name="TagCellType_DefaultValue" xml:space="preserve">
+    <value>Tag 1,Tag 2,Tag 3</value>
+  </data>
+  <data name="ShowNotification_Title_DefaultValue" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ShowNotification_Message_DefaultValue" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ShowNotification_Duration_Description" xml:space="preserve">
+    <value>Display time, milliseconds. Setting to 0 does not automatically close</value>
+  </data>
+  <data name="ShowNotification_Offset_Description" xml:space="preserve">
+    <value>At the same time, all notification box instances should have the same offset</value>
+  </data>
+  <data name="ShowNotification_Command_InitParamValues" xml:space="preserve">
+    <value>Title|Message|Context</value>
+  </data>
+  <data name="Notification_Context" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Notification_Context_Description" xml:space="preserve">
+    <value>Use to store the context value (such as ID) which will be used in click notification command</value>
+  </data>
+  <data name="Timeline_Default1" xml:space="preserve">
+    <value>Activity start</value>
+  </data>
+  <data name="Timeline_Default2" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Timeline_Default3" xml:space="preserve">
+    <value>Create Success</value>
+  </data>
+  <data name="Timeline_bindingOptions_Columns" xml:space="preserve">
+    <value>content:Content|timestamp:Timestamp|icon:Icon|color:Color</value>
+  </data>
+  <data name="Timeline_bindingOptions_Columns_Description" xml:space="preserve">
+    <value>color: node color support color names, such as "red", "black"
+Supports hexadecimal notation such as "#002316"
+Support rgb or rgba formats such as: "rgb(0,10,100)" or "rgba(0,10,100,0.5)"</value>
+  </data>
+  <data name="Timeline_IsTimestampSort_Description" xml:space="preserve">
+    <value>Automatic sorting based on timestamp, otherwise, use default data order</value>
+  </data>
+  <data name="Timeline_format_ValueList" xml:space="preserve">
+    <value>yyyy|yyyy/MM|yyyy/MM/DD|yyyy/MM/DD HH:mm:ss</value>
+  </data>
+  <data name="Timeline_NodeSize_DisplayList" xml:space="preserve">
+    <value>Normal|Large</value>
+  </data>
+  <data name="TimelineCellType_bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="TimePickerCellType_mode_DisplayList" xml:space="preserve">
+    <value>Select|Picker</value>
+  </data>
+  <data name="TimePickerCellType_rangeSeparator_DefaultValue" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="TimePickerCellType_startPlaceholder_DefaultValue" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="TimePickerCellType_endPlaceholder_DefaultValue" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="TransferCellType_DefaultItemName" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="TransferCellType_bindingOptions_Columns" xml:space="preserve">
+    <value>key:Key|label:Label|disabled:Disabled</value>
+  </data>
+  <data name="TransferCellType_leftTitle_DefaultValue" xml:space="preserve">
+    <value>list1</value>
+  </data>
+  <data name="TransferCellType_rightTitle_DefaultValue" xml:space="preserve">
+    <value>list2</value>
+  </data>
+  <data name="TransferCellType_filterPlaceholder_DefaultValue" xml:space="preserve">
+    <value>Enter keyword</value>
+  </data>
+  <data name="UploadCellType_buttonText_DefaultValue" xml:space="preserve">
+    <value>Click to upload</value>
+  </data>
+  <data name="UploadCellType_tipText_DefaultValue" xml:space="preserve">
+    <value>Only jpg/png files can be uploaded</value>
+  </data>
+  <data name="ShowMessage_Message_DefaultValue" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ShowMessage_Duration_Description" xml:space="preserve">
+    <value>Automatically shut down duration. Setting to 0 does not automatically shut down</value>
+  </data>
+  <data name="ShowMessage_Offset_Description" xml:space="preserve">
+    <value>The offset of the message box from the top of the window</value>
+  </data>
+  <data name="ShowMessage_Title_DefaultValue" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ShowMessage_Message_Box_DefaultValue" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ShowMessage_ConfirmButtonText_DefaultValue" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ShowMessage_CancelButtonText_DefaultValue" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ShowMessage_DistinguishCancelAndClose_Description" xml:space="preserve">
+    <value>Cancel (click the Cancel button) Close (click the Close button or mask layer, press ESC)</value>
+  </data>
+  <data name="IconEditor_ChooseIcon" xml:space="preserve">
+    <value>Choose Icon</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UploadCellType_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="BreadcrumbCellType_NullPreview" xml:space="preserve">
+    <value>homepage/promotion management/promotion list/promotion detail</value>
+  </data>
+  <data name="CalendarCellType_PreMonth" xml:space="preserve">
+    <value>Previouse Month</value>
+  </data>
+  <data name="CalendarCellType_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="CalendarCellType_NextMonth" xml:space="preserve">
+    <value>Next Month</value>
+  </data>
+  <data name="NavMenu_Item1" xml:space="preserve">
+    <value>Menu 1</value>
+  </data>
+  <data name="NavMenu_Item2" xml:space="preserve">
+    <value>Menu 2</value>
+  </data>
+  <data name="NavMenu_Item3" xml:space="preserve">
+    <value>Menu 3</value>
+  </data>
+  <data name="PaginationPreview_TotalPart" xml:space="preserve">
+    <value>Total 400</value>
+  </data>
+  <data name="PaginationPreview_PerPagePart" xml:space="preserve">
+    <value>100/page</value>
+  </data>
+  <data name="PaginationPreview_GoTo" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="PaginationPreview_Page" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DefaultTreeSource" xml:space="preserve">
+    <value>[{
+          value: 'guide',
+          label: 'Guide',
+		        "icon": {
+                "Name": "Application/130_list_2.svg",
+                "BuiltIn": true,
+		        "UseCellTypeForeColor":true,
+                "Color": "Background 1 -25"
+          },
+          children: [{
+            value: 'disciplines',
+            label: 'Disciplines',
+            children: [{
+              value: 'consistency',
+              label: 'Consistency'
+            }, {
+              value: 'feedback',
+              label: 'Feedback'
+            }, {
+              value: 'efficiency',
+              label: 'Efficiency'
+            }, {
+              value: 'controllability',
+              label: 'Controllability'
+            }]
+          }, {
+            value: 'navigation',
+            label: 'Navigation',
+            children: [{
+              value: 'side nav',
+              label: 'Side Navigation'
+            }, {
+              value: 'top nav',
+              label: 'Top Navigation'
+            }]
+          }]
+        }, {
+          value: 'component',
+          label: 'Component',
+		  "icon": {
+                "Name": "Navigation/196_settings_8.svg",
+                "BuiltIn": true,
+                "Color": "Background 1 -25",
+		        "UseCellTypeForeColor":true
+          },
+          children: [{
+            value: 'basic',
+            label: 'Basic',
+            children: [{
+              value: 'layout',
+              label: 'Layout'
+            }, {
+              value: 'color',
+              label: 'Color'
+            }, {
+              value: 'typography',
+              label: 'Typography'
+            }, {
+              value: 'icon',
+              label: 'Icon'
+            }, {
+              value: 'button',
+              label: 'Button'
+            }]
+          }, {
+            value: 'form',
+            label: 'Form',
+            children: [{
+              value: 'radio',
+              label: 'Radio'
+            }, {
+              value: 'checkbox',
+              label: 'Checkbox'
+            }, {
+              value: 'input',
+              label: 'Input'
+            }, {
+              value: 'input-number',
+              label: 'InputNumber'
+            }, {
+              value: 'select',
+              label: 'Select'
+            }, {
+              value: 'cascader',
+              label: 'Cascader'
+            }, {
+              value: 'switch',
+              label: 'Switch'
+            }, {
+              value: 'slider',
+              label: 'Slider'
+            }, {
+              value: 'time-picker',
+              label: 'TimePicker'
+            }, {
+              value: 'date-picker',
+              label: 'DatePicker'
+            }, {
+              value: 'datetime-picker',
+              label: 'DateTimePicker'
+            }, {
+              value: 'upload',
+              label: 'Upload'
+            }, {
+              value: 'rate',
+              label: 'Rate'
+            }, {
+              value: 'form',
+              label: 'Form'
+            }]
+          }, {
+            value: 'data',
+            label: 'Data',
+            children: [{
+              value: 'table',
+              label: 'Table'
+            }, {
+              value: 'tag',
+              label: 'Tag'
+            }, {
+              value: 'progress',
+              label: 'Progress'
+            }, {
+              value: 'tree',
+              label: 'Tree'
+            }, {
+              value: 'pagination',
+              label: 'Pagination'
+            }, {
+              value: 'badge',
+              label: 'Badge'
+            }]
+          }, {
+            value: 'notice',
+            label: 'Notice',
+            children: [{
+              value: 'alert',
+              label: 'Alert'
+            }, {
+              value: 'loading',
+              label: 'Loading'
+            }, {
+              value: 'message',
+              label: 'Message'
+            }, {
+              value: 'message-box',
+              label: 'MessageBox'
+            }, {
+              value: 'notification',
+              label: 'Notification'
+            }]
+          }, {
+            value: 'navigation',
+            label: 'Navigation',
+            children: [{
+              value: 'menu',
+              label: 'NavMenu'
+            }, {
+              value: 'tabs',
+              label: 'Tabs'
+            }, {
+              value: 'breadcrumb',
+              label: 'Breadcrumb'
+            }, {
+              value: 'dropdown',
+              label: 'Dropdown'
+            }, {
+              value: 'steps',
+              label: 'Steps'
+            }]
+          }, {
+            value: 'others',
+            label: 'Others',
+            children: [{
+              value: 'dialog',
+              label: 'Dialog'
+            }, {
+              value: 'tooltip',
+              label: 'Tooltip'
+            }, {
+              value: 'popover',
+              label: 'Popover'
+            }, {
+              value: 'card',
+              label: 'Card'
+            }, {
+              value: 'carousel',
+              label: 'Carousel'
+            }, {
+              value: 'collapse',
+              label: 'Collapse'
+            }]
+          }]
+        }, {
+          value: 'resource',
+          label: 'Resource',
+		        "icon": {
+                "Name": "Mobile/419_share_1.svg",
+                "BuiltIn": true,
+                "Color": "Background 1 -25",
+		        "UseCellTypeForeColor":true
+          },
+          children: [{
+            value: 'docs',
+            label: 'Design Documentation'
+          }]
+        }]</value>
+  </data>
+  <data name="CalendarCellType_DefaultFormatString" xml:space="preserve">
+    <value>yyyy MM</value>
+  </data>
+  <data name="Data_DefautWeekFormat" xml:space="preserve">
+    <value>[Week] WW</value>
+  </data>
+  <data name="UploadCellType_OverFileCountLimitError" xml:space="preserve">
+    <value>The file count limit is ${limit}, This time choosed file count is ${length} ,totally ${total} </value>
+  </data>
+  <data name="UploadCellType_FileFormatError" xml:space="preserve">
+    <value>The uploaded file is malformed</value>
+  </data>
+  <data name="UploadCellType_OverFileSizeLimitError" xml:space="preserve">
+    <value>The size of the uploaded file exceeds the limit</value>
+  </data>
+  <data name="CalendarCellType_Weekdays" xml:space="preserve">
+    <value>Mon,Tue,Wed,Thu,Fri,Sat,Sun</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Common_ValueChangeCommand" xml:space="preserve">
+    <value>Edit ValueChanged Command</value>
+  </data>
+  <data name="ProgressCellType_SetBackgroundColor" xml:space="preserve">
+    <value>Set Background Color</value>
+  </data>
+  <data name="ProgressCellType_SetStatus" xml:space="preserve">
+    <value>Set Status</value>
+  </data>
+  <data name="ProgressCellType_SetBackgroundColor_Description" xml:space="preserve">
+    <value>Setting the background color will set the status to empty.</value>
+  </data>
+  <data name="layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="layout_DisplayList" xml:space="preserve">
+    <value>Horizontal|Vertical</value>
+  </data>
+  <data name="StepsCellType_value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Timeline_dataSource" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Timeline_contentProperty" xml:space="preserve">
+    <value>Content Property</value>
+  </data>
+  <data name="Timeline_timestampProperty" xml:space="preserve">
+    <value>Timestamp Property</value>
+  </data>
+  <data name="Timeline_SetDataSource" xml:space="preserve">
+    <value>SetJsonDataSource</value>
+  </data>
+  <data name="Timeline_SetDataSource_Description" xml:space="preserve">
+    <value>Using a dynamic JSON object as a data source for cells, an example of JSON format is as follows
+[
+    {"content": "Activity start", "timestamp": "2018-04-15"},
+    {"content": "Approved", "timestamp": "2018-04-13"},
+    {"content": "Create Success", "timestamp": "2018-04-11"}
+]
+The above data assumes that the 'content attribute' is content and the 'timestamp attribute name' is timestamp
+Typically, a JSON data source can be obtained from a web service via an HTTP request command, or from a server-side command</value>
+  </data>
+  <data name="DatePickerCellType_firstDayWeek_DisplayList" xml:space="preserve">
+    <value>Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday</value>
+  </data>
+  <data name="MethodName_ReloadBindingItems" xml:space="preserve">
+    <value>Reload Binding Items</value>
+  </data>
+  <data name="MethodName_ReloadBindingItems_Description" xml:space="preserve">
+    <value>If the binding is changed but the binding items can't reload data automatically, use this operation can force reload binding items</value>
+  </data>
+  <data name="AvatarCellType_ChooseAvatar" xml:space="preserve">
+    <value>Choose Avatar</value>
+  </data>
+  <data name="Type_DisplayList" xml:space="preserve">
+    <value>success|warning|info|error</value>
+  </data>
+  <data name="ShowMessage_ShowMessage_Type_DisplayList" xml:space="preserve">
+    <value>none|success|warning|info|error</value>
+  </data>
+  <data name="Notification_Position_DisplayList" xml:space="preserve">
+    <value>top-right|top-left|bottom-right|bottom-left</value>
+  </data>
+  <data name="AdvancedSettings" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="TabHeader" xml:space="preserve">
+    <value>TabHeader</value>
+  </data>
+	<data name="TabHeader_ClickCommand" xml:space="preserve">
+    <value>Edit Click Command</value>
+  </data>
+  <data name="TabHeader_tabs" xml:space="preserve">
+    <value>Edit Tab Items</value>
+  </data>
+  <data name="TabHeader_tab_value" xml:space="preserve">
+    <value>Value</value>
+  </data> 
+  <data name="TabHeader_bindingOptions_Columns" xml:space="preserve">
+    <value>Value:Value|Name:Name</value>
+  </data>
+  <data name="TabHeader_tab_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TabHeaderCellType_ClickCommand_InitParamValues" xml:space="preserve">
+    <value>ItemIndex|ItemValue|ItemText</value>
+  </data>
+  <data name="TabHeader_type" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="TabHeaderCellType_type_DisplayList" xml:space="preserve">
+    <value>Default|Card|Border-card</value>
+  </data>
+  <data name="TabHeader_position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="TabHeaderCellType_position_DisplayList" xml:space="preserve">
+    <value>Top|Bottom|Left|Right</value>
+  </data>
+  <data name="TabHeader_stretch" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="TabHeaderDefaultValue" xml:space="preserve">
+    <value>User/Config/Role/Task</value>
+  </data>
+  <data name="TabHeader_SetActive" xml:space="preserve">
+    <value>SetActive</value>
+  </data>
+  <data name="TabHeader_SetActive_Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="BackupTopCellType_Bottom" xml:space="preserve">
+    <value>Bottom Distance</value>
+  </data>
+  <data name="BackupTopCellType_PluginName" xml:space="preserve">
+    <value>BackupTop</value>
+  </data>
+  <data name="BackupTopCellType_Right" xml:space="preserve">
+    <value>Right Distance</value>
+  </data>
+  <data name="BackupTopCellType_VisibilityHeight" xml:space="preserve">
+    <value>Scroll Height</value>
+  </data>
+  <data name="PaginationCellType_SetPageSize" xml:space="preserve">
+    <value>SetPageSize</value>
+  </data>
+  <data name="PaginationCellType_PageSize_Param" xml:space="preserve">
+    <value>PageSize</value>
+  </data>
+  <data name="PaginationCellType_SetCurrentPageIndex" xml:space="preserve">
+    <value>SetCurrentPageIndex</value>
+  </data>
+  <data name="PaginationCellType_PageIndex_Param" xml:space="preserve">
+    <value>PageIndex</value>
+  </data>
+  <data name="PaginationCellType_SetTotal" xml:space="preserve">
+    <value>SetTotal</value>
+  </data>
+  <data name="PaginationCellType_Total_Param" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PaginationCellType_ExecuteCommand" xml:space="preserve">
+    <value>ExecuteCommand</value>
+  </data>
+  <data name="PaginationCellType_PagingChangeCommands_InitParamValues" xml:space="preserve">
+    <value>CurrentPage|PageSize|Total</value>
+  </data>
+  <data name="PaginationCellType_PagingChangeCommands" xml:space="preserve">
+    <value>PagingChangeCommands</value>
+  </data>
+  <data name="NavMenuCellType_SetCollapse" xml:space="preserve">
+    <value>SetCollapse</value>
+  </data>
+  <data name="NavMenuCellType_SetCollapse_Collapse" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="SliderCellType_formatTooltipStr_VariableContext" xml:space="preserve">
+    <value>Value:Silder's value</value>
+  </data>  
+  <data name="Cascader_TagType" xml:space="preserve">
+    <value>Tag Type</value>
+  </data>
+  <data name="Cascader_TagType_DisplayList" xml:space="preserve">
+    <value>success|info|warning|danger</value>
+  </data>
+	<data name="HideItems_Display" xml:space="preserve">
+    <value>HideMenuItems</value>
+  </data>
+	<data name="HideItemsParam_Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+	<data name="HideItemsParam_ItemsDescription" xml:space="preserve">
+    <value>Multiple menu items can be separated by English commas. Such as Menu1,Menu2.</value>
+  </data>
+	<data name="TabHeader_HideItems_Display" xml:space="preserve">
+    <value>HideItems</value>
+  </data>
+	<data name="TabHeader_HideItemsParam_Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+	<data name="TabHeader_HideItemsParam_ItemsDescription" xml:space="preserve">
+    <value>Multiple menu items can be separated by English commas. Such as Tab1,Tab2.</value>
+  </data>
+	<data name="RunTimeMethod_SetBadge" xml:space="preserve">
+    <value>SetBadge</value>
+  </data>
+	<data name="RunTimeMethod_SetBadge_itemValue" xml:space="preserve">
+    <value>Target item value</value>
+  </data>
+	<data name="RunTimeMethod_SetBadge_badgeValue" xml:space="preserve">
+    <value>Badge value</value>
+  </data>
+	<data name="GetDisplayText" xml:space="preserve">
+    <value>GetDisplayText</value>
+  </data>
+	<data name="DisplayText" xml:space="preserve">
+    <value>Display Text</value>
+  </data>	
+	<data name="Select_AllowAddEmptyItem" xml:space="preserve">
+    <value>Add Empty Item</value>
+  </data>
+	<data name="Select_EmptyItemText" xml:space="preserve">
+    <value>Empty Item Text</value>
+  </data>
+  <data name="NavMenuCellType_Collapse_Description" xml:space="preserve">
+    <value></value>
+  </data>  
+  <data name="SliderCellType_label" xml:space="preserve">
+    <value>Label</value>
+  </data>  
+  <data name="SliderCellType_Marks" xml:space="preserve">
+    <value>Config Marks</value>
+  </data>
+  <data name="SliderCellType_SetMarks" xml:space="preserve">
+    <value>SetMarks</value>
+  </data>
+  <data name="SliderCellType_SetMarks_Marks" xml:space="preserve">
+    <value>Marks</value>
+  </data>
+  <data name="NavMenuCellType_ClicktCommand" xml:space="preserve">
+    <value>Edit Click Command</value>
+  </data>
+</root>
