@@ -1,6 +1,6 @@
 # Element Plus Plugin 
 
-[活字格官网]（https://www.grapecity.com.cn/solutions/huozige）
+[活字格官网](https://www.grapecity.com.cn/solutions/huozige)
 
 ### 快速开始 
 （插件的使用帮助说明在第二部分，请下拉查看）
